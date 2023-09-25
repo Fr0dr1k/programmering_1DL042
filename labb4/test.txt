@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<html lang="sv" class="no-js">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="content-language" content="sv"/>
+<meta name="robots" content="index, follow"/>
+<meta name="DC.Date.X-MetadataLastModified" content="2022-11-08 14:17:00+0100"/>
+<meta name="DC.Publisher" content="Uppsala universitet"/>
+<meta name="keywords" content="Personal"/>
+<meta name="description" content="Personal"/>
+<meta name="verify-v1" content="C0Lsm7Gfb0ZBOR7asOdLqJT3nmC1KjgMGl9Nn7YINpA="/>
+<meta name="DC.Identifier" content="/institutionen/personal/"/>
+<meta name="DC.Creator.PersonalName" content="Marie Chajara Svensson"/>
+<meta name="creator" content="Marie Chajara Svensson"/>
+<meta name="pageid" content="102348"/>
+<link href="//live.webb.uu.se/common/CSS/v2-aggregated-css-base?baseUrl=www.math.uu.se&amp;version=1186514" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/v2-aggregated-css-modules?modulesUrl=www.math.uu.se&amp;version=1237318" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/v2-aggregated-css-post?postUrl=www.math.uu.se&amp;version=1186520" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/v2-aggregated-css-media-queries?version=1186516" rel="stylesheet" type="text/css"/>
+<link rel="apple-touch-icon-precomposed" href="/digitalAssets/19/c_19350-l_3-k_appletouch57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/digitalAssets/19/c_19350-l_3-k_appletouch72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/digitalAssets/19/c_19350-l_3-k_appletouch114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/digitalAssets/19/c_19350-l_3-k_appletouch144.png" />
+<link rel="shortcut icon" href="/digitalAssets/14/c_14093-l_3-k_favicon.ico"/>
+<title>
+Personal - Matematiska institutionen - Uppsala universitet
+</title>
+<!--<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/script/uu/modernizer-custom-2.6.2.js"></script>
+<script language="javascript" type="text/javascript" src="/jsp/errorjs.jsp"></script>
+</head>
+<body class="uu-site   not-centralised" id="top">
+<div class="main-wrapper">
+<div class="skip-to-content">
+<a class="is-visually-hidden is-show-on-focus btn-skip btn" href="#maincontent">Hoppa till huvudinnehållet</a>
+</div>
+<div id="global-navigation" class="top-nav-dark">
+<nav aria-label="Huvudmeny för Uppsala universitet" class="top-nav-wrap container">
+<div class="top-nav-uu-link-wrap">
+<a href="https://www.uu.se/" class="is-berling top-nav-uu-link" title="Uppsala universitets startsida">
+Uppsala universitet
+</a>
+</div>
+<div class="top-nav-levels">
+<ul class="top-nav first-level is-uppercase clearfix">
+<li class="first">
+<a href="https://www.uu.se/utbildning" title="Utbildning">Utbildning</a>
+</li>
+<li>
+<a href="https://www.uu.se/forskning" title="Forskning">Forskning</a>
+</li>
+<li>
+<a href="https://www.uu.se/samverkan-och-innovation" title="Samverkan & innovation">Samverkan & innovation</a>
+</li>
+<li>
+<a href="https://www.uu.se/om-uu" title="Universitetet">Universitetet</a>
+</li>
+</ul>
+<ul class="top-nav second-level clearfix">
+<li class="first">
+<a href="https://www.uu.se/student" title="Student">Student</a>
+</li>
+<li>
+<a href="https://mp.uu.se/sv" title="Medarbetare">Medarbetare</a>
+</li>
+<li>
+<a href="https://www.uu.se/alumn" title="Alumn">Alumn</a>
+</li>
+<li>
+<a href="https://www.uu.se/press" title="Press">Press</a>
+</li>
+<li>
+<a href="https://ub.uu.se/?languageId=3" title="Bibliotek">Bibliotek</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<header class="header-element">
+<div class="top-stripe">
+<nav aria-label="Meny för målgruppsingångar" class="container top-links flex-row justify-content-end">
+<button id="central-nav-button" class="central-nav-button" aria-label="Huvudmeny för Uppsala universitet " aria-controls="global-navigation" aria-expanded="false">
+Meny
+</button>
+</nav>
+</div>
+<div class="container top-content clearfix">
+<div class="logo-wrap">
+<a href="https://www.uu.se"  title="Uppsala universitets startsida" class="logo-link">
+<img src="/digitalAssets/242/c_242915-l_3-k_svg-uu-logo.svg" alt="Uppsala universitet" class="logo">
+</a>
+</div>
+<img src="/digitalAssets/242/c_242915-l_3-k_top-stripe-print.jpg" alt="" class="top-stripe only-print">
+<img src="/digitalAssets/242/c_242915-l_3-k_uu-logo-redbg.png" alt="Uppsala universitet" class="label-logo only-print">
+<img src="/digitalAssets/242/c_242915-l_3-k_uu_logo_print.png" alt="Uppsala universitet" class="logo only-print">
+<span class="site-name no-print">
+<a class="site-name-link" href="/?languageId=3" >
+Matematiska institutionen
+</a>
+</span>
+<div class="searchForm" aria-label="Sök på webbplatsen" role="search">
+<form class="search" action="/sokresultat/">
+<div class="search-group flex">
+<label for="mainSearchField" class="is-visually-hidden">Sök</label>
+<div id="js-main-search-complete-output" class="search-complete-output">
+<div class="autocomplete__wrapper search-progressive-input">
+<input id="mainSearchField" class="autocomplete__input autocomplete__input--default" name="q" type="text">
+</div>
+</div>
+<input type="submit" class="btn btn-search submit-search" value="Sök">
+</div>
+</form>
+</div>
+<div class="sigill"></div>
+<div class="anno"></div>
+</div>
+<div class="mobile-search-container" aria-label="Sök på webbplatsen" role="search">
+<form class="mobile-search" id="mobile-search-form" action="/sokresultat/">
+<div class="search-group flex justify-content-end">
+<div id="js-main-search-complete-output-mobile" class="textfield search-complete-output-mobile"></div>
+<input type="submit" class="submit-icon submit-search toggle" value="" aria-label="Sök">
+</div>
+</form>
+</div>
+<div class="local-nav-mobile-header align-items-center flex-row local-nav-mobile-toggle">
+<button id="local-nav-mobile-button" class="local-nav-mobile-icon" aria-controls="local-nav-mobile" aria-expanded="false" aria-label="Meny för Matematiska institutionen">
+</button>
+<span class="current-page is-berling">
+Matematiska institutionen
+</span>
+</div>
+<nav id="local-nav-mobile" aria-label="Meny för Matematiska institutionen" class="local-nav-mobile">
+<ul class="menuLevel0">
+<li  id='menu-93286-m'><a href="/utbildning/">Utbildning</a></li>
+<li  id='menu-231804-m'><a href="/forskning/">Forskning</a></li>
+<li  id='menu-93284-m'><a href="/samverkan/">Samverkan</a></li>
+<li  id='menu-93276-m'><a href="/institutionen/">Institutionen</a>
+<ul class="menuLevel1">
+<li  id='menu-93306-m'><a href="/institutionen/nyheter/">Nyheter</a></li>
+<li  id='menu-93308-m'><a href="/institutionen/kalendarium/">Kalendarium</a></li>
+</ul>
+</li>
+<li  id='menu-222742-m'><a href="/kontakt/">Kontakt</a></li>
+</ul>
+</nav>
+</header><!--  -->
+<div class="l-main-container clearfix">
+<div class="page-content container with-menu">
+<div class="l-top-container flex-row">
+<div class="breadcrumbs no-print">
+<a class="breadcrumb-uu-link" href="http://www.uu.se" title="Uppsala universitet">Uppsala universitet</a>
+<a title="Matematiska institutionen" href="/">
+Matematiska
+institutionen
+</a>
+<a title="Institutionen" href="/institutionen/">
+Institutionen
+</a>
+<span>
+Personal
+</span>
+</div>
+<div class="page-tools-top clearfix">
+<div class="page-tool language"><a lang="en" href="/the-department/people/" title="English" class="language en">
+<span class="not-capitalized">
+This page in
+</span>	
+<span class="language-text">
+English
+</span>
+</a></div>
+<div class="page-tool listen">
+<span class="listen-icon">
+<a accesskey="L"
+href="//app.readspeaker.com/cgi-bin/rsent?customerid=4462&amp;lang=sv_se&amp;readid=readspeaker-content&amp;url=https%3A%2F%2Fwww.math.uu.se%2Finstitutionen%2Fpersonal%2F%3FlanguageId%3D3"
+target="_blank"
+onclick="readpage(this.href, 'xp1'); return false;">Lyssna</a>
+</span>
+</div>
+</div>
+</div>
+<div class="l-left-nav-wrap clearfix">
+<nav class="left-nav clearfix" aria-label="" >
+<ul class="menuLevel0">
+<li  id='menu-93286-d'><a href="/utbildning/">Utbildning</a></li>
+<li  id='menu-231804-d'><a href="/forskning/">Forskning</a></li>
+<li  id='menu-93284-d'><a href="/samverkan/">Samverkan</a></li>
+<li  id='menu-93276-d'><a href="/institutionen/">Institutionen</a>
+<ul class="menuLevel1">
+<li  id='menu-93306-d'><a href="/institutionen/nyheter/">Nyheter</a></li>
+<li  id='menu-93308-d'><a href="/institutionen/kalendarium/">Kalendarium</a></li>
+</ul>
+</li>
+<li  id='menu-222742-d'><a href="/kontakt/">Kontakt</a></li>
+</ul>
+</nav>
+</div>
+<div class="l-article-wrap">
+<main id="maincontent">
+<div class="main-content">
+<div id="xp1" class="rs_addtools rs_splitbutton rs_preserve rs_skip container"></div> 
+<div id="readspeaker-content" >
+<!-- index_start -->
+<div class="unitEmployeeListContainer componentContainer clearfix">	
+<div class="empList a-z-filter-container">
+<h1>Alla anställda och övrigt verksamma på institutionen</h1>
+<div class="a-z-filter-control">
+<a href="#" class="show-all">Visa alla</a>
+<a href="#">A</a> 
+<a href="#">B</a> 
+<a href="#">C</a> 
+<a href="#">D</a> 
+<a href="#">E</a> 
+<a href="#">F</a> 
+<a href="#">G</a> 
+<a href="#">H</a> 
+<a href="#">I</a> 
+<a href="#">J</a> 
+<a href="#">K</a> 
+<a href="#">L</a> 
+<a href="#">M</a> 
+<a href="#">N</a> 
+<a href="#">O</a> 
+<a href="#">P</a> 
+<a href="#">Q</a> 
+<a href="#">R</a> 
+<a href="#">S</a> 
+<a href="#">T</a> 
+<a href="#">U</a> 
+<a href="#">V</a> 
+<a href="#">W</a> 
+<a href="#">X</a> 
+<a href="#">Y</a> 
+<a href="#">Z</a> 
+<a href="#">&Aring;</a> 
+<a href="#">&Auml;</a> 
+<a href="#">&Ouml;</a> 
+</div>
+<p class="directoryUnitInfo">Länkarna nedan leder till universitetets personalkatalog.</p>
+<script type="text/javascript">
+try {
+// If profile image was succefully downloaded change class name on containing div to display it
+function checkImgLoad(empNum) {
+document.getElementById(empNum+'_img').className = document.getElementById(empNum+'_img').className.replace(/\semp-profile-image-missing/gi, '');
+}
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<ul class="is-unstyled a-z-filter-list">
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1404_img">
+<img onload="checkImgLoad('N20-1404');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1404/portrait" alt="Agdur, Vilhelm ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1404" class="emp-name">	
+Agdur, Vilhelm 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3106">018-471 3106</a>
+</span>
+<a class="obEmail emp-email">vilhelm.agdur<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3106">018-471 3106</a>
+</span>
+<a class="obEmail emp-email">vilhelm.agdur<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2523_img">
+<img onload="checkImgLoad('N21-2523');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2523/portrait" alt="Alam, Mahbub ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2523" class="emp-name">	
+Alam, Mahbub 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3273">018-471 3273</a>
+</span>
+<a class="obEmail emp-email">mahbub.alam<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1923_img">
+<img onload="checkImgLoad('XX1923');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1923/portrait" alt="Alm, Sven Erick ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1923" class="emp-name">	
+Alm, Sven Erick 
+</a>
+<span class="emp-title">
+Professor emer. i matematik med inriktning mot matematisk statistik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">sven_erick.alm<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N9-61_img">
+<img onload="checkImgLoad('N9-61');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N9-61/portrait" alt="Alsaody, Seidon ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N9-61" class="emp-name">	
+Alsaody, Seidon 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3183">018-471 3183</a>
+</span>
+<a class="obEmail emp-email">seidon.alsaody<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1435_img">
+<img onload="checkImgLoad('N18-1435');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1435/portrait" alt="Andersson, Martin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1435" class="emp-name">	
+Andersson, Martin 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3283">018-471 3283</a>
+</span>
+<a class="obEmail emp-email">martin.andersson<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3283">018-471 3283</a>
+</span>
+<a class="obEmail emp-email">martin.andersson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1654_img">
+<img onload="checkImgLoad('N21-1654');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1654/portrait" alt="Ataei, Alireza ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1654" class="emp-name">	
+Ataei, Alireza 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">alireza.ataei<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-542_img">
+<img onload="checkImgLoad('N21-542');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-542/portrait" alt="Avdek, Russell ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-542" class="emp-name">	
+Avdek, Russell 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3788">018-471 3788</a>
+</span>
+<a class="obEmail emp-email">russell.avdek<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N11-2503_img">
+<img onload="checkImgLoad('N11-2503');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N11-2503/portrait" alt="Avelin, Benny ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N11-2503" class="emp-name">	
+Avelin, Benny 
+</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3226">018-471 3226</a>
+</span>
+<a class="obEmail emp-email">benny.avelin<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3226">018-471 3226</a>
+</span>
+<a class="obEmail emp-email">benny.avelin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1240_img">
+<img onload="checkImgLoad('N21-1240');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1240/portrait" alt="Avelin, Erik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1240" class="emp-name">	
+Avelin, Erik 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">erik.avelin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-132_img">
+<img onload="checkImgLoad('N21-132');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-132/portrait" alt="Belaghi, Reza ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-132" class="emp-name">	
+Belaghi, Reza 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3389">018-471 3389</a>
+</span>
+<a class="obEmail emp-email">reza.belaghi<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1154_img">
+<img onload="checkImgLoad('XX1154');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1154/portrait" alt="Berg, Gunnar ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1154" class="emp-name">	
+Berg, Gunnar 
+</a>
+<span class="emp-title">
+pens. Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3275">018-471 3275</a>
+</span>
+<a class="obEmail emp-email">gunnar.berg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-955_img">
+<img onload="checkImgLoad('N22-955');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-955/portrait" alt="Biggs, Kirsti ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-955" class="emp-name">	
+Biggs, Kirsti 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">kirsti.biggs<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N96-1404_img">
+<img onload="checkImgLoad('N96-1404');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N96-1404/portrait" alt="Bill, Elisabeth ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N96-1404" class="emp-name">	
+Bill, Elisabeth 
+</a>
+<span class="emp-title">
+HR-generalist
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3181">018-471 3181</a>
+</span>
+<a class="obEmail emp-email">elisabeth.bill<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1431_img">
+<img onload="checkImgLoad('N18-1431');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1431/portrait" alt="Burghart, Fabian ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1431" class="emp-name">	
+Burghart, Fabian 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3206">018-471 3206</a>
+</span>
+<a class="obEmail emp-email">fabian.burghart<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1163_img">
+<img onload="checkImgLoad('N20-1163');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1163/portrait" alt="Bäcke, Martin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1163" class="emp-name">	
+Bäcke, Martin 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">martin.backe<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-748_img">
+<img onload="checkImgLoad('N22-748');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-748/portrait" alt="Caracciolo, Chiara ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-748" class="emp-name">	
+Caracciolo, Chiara 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">chiara.caracciolo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1248_img">
+<img onload="checkImgLoad('N21-1248');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1248/portrait" alt="Carlsson, Mattias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1248" class="emp-name">	
+Carlsson, Mattias 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">mattias.carlsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1174_img">
+<img onload="checkImgLoad('N20-1174');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1174/portrait" alt="Caut, Amandine ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1174" class="emp-name">	
+Caut, Amandine 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">amandine.caut<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">amandine.caut<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N0-958_img">
+<img onload="checkImgLoad('N0-958');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N0-958/portrait" alt="Chajara Svensson, Marie ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N0-958" class="emp-name">	
+Chajara Svensson, Marie 
+</a>
+<span class="emp-title">
+Kommunikatör
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-7263">018-471 7263</a>
+</span>
+<a class="obEmail emp-email">marie.chajara.svensson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-173_img">
+<img onload="checkImgLoad('N22-173');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-173/portrait" alt="Chen, Ludvig ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-173" class="emp-name">	
+Chen, Ludvig 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ludvig.chen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1092_img">
+<img onload="checkImgLoad('N20-1092');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1092/portrait" alt="Coban, Özgur ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1092" class="emp-name">	
+Coban, Özgur 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ozgur.coban<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N10-872_img">
+<img onload="checkImgLoad('N10-872');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N10-872/portrait" alt="Crispin Quinonez, Veronica ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N10-872" class="emp-name">	
+Crispin Quinonez, Veronica 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3197">018-471 3197</a>
+</span>
+<a class="obEmail emp-email">veronica.crispin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N15-1161_img">
+<img onload="checkImgLoad('N15-1161');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N15-1161/portrait" alt="Dahne, Joel ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N15-1161" class="emp-name">	
+Dahne, Joel 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3274">018-471 3274</a>
+</span>
+<a class="obEmail emp-email">joel.dahne<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1600_img">
+<img onload="checkImgLoad('N23-1600');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1600/portrait" alt="Datta, Shreyasi ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1600" class="emp-name">	
+Datta, Shreyasi 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">shreyasi.datta<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-317_img">
+<img onload="checkImgLoad('N23-317');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-317/portrait" alt="De Marco, Mario ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-317" class="emp-name">	
+De Marco, Mario 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">mario.demarco<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-103_img">
+<img onload="checkImgLoad('N20-103');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-103/portrait" alt="Del Zotto, Michele ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-103" class="emp-name">	
+Del Zotto, Michele 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3192">018-471 3192</a>
+</span>
+<a class="obEmail emp-email">michele.delzotto<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N94-811_img">
+<img onload="checkImgLoad('N94-811');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N94-811/portrait" alt="Dieterich, Ernst ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N94-811" class="emp-name">	
+Dieterich, Ernst 
+</a>
+<span class="emp-title">
+Professor emer. i matematik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ernst.dieterich<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N7-1534_img">
+<img onload="checkImgLoad('N7-1534');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N7-1534/portrait" alt="Dimitroglou Rizell, Georgios ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N7-1534" class="emp-name">	
+Dimitroglou Rizell, Georgios 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3225">018-471 3225</a>,&nbsp;
+<a href="tel:070-1679827">070-1679827</a>
+</span>
+<a class="obEmail emp-email">georgios.dimitroglou<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1468_img">
+<img onload="checkImgLoad('N17-1468');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1468/portrait" alt="Diogo, Luis ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1468" class="emp-name">	
+Diogo, Luis 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-6318">018-471 6318</a>
+</span>
+<a class="obEmail emp-email">luis.diogo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1405_img">
+<img onload="checkImgLoad('N20-1405');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1405/portrait" alt="Dramburg, Darius ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1405" class="emp-name">	
+Dramburg, Darius 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3281">018-471 3281</a>
+</span>
+<a class="obEmail emp-email">darius.dramburg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N94-2099_img">
+<img onload="checkImgLoad('N94-2099');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N94-2099/portrait" alt="Ekholm, Tobias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N94-2099" class="emp-name">	
+Ekholm, Tobias 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-6399">018-471 6399</a>
+</span>
+<a class="obEmail emp-email">tobias.ekholm<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2434_img">
+<img onload="checkImgLoad('N21-2434');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2434/portrait" alt="Eklund, Niklas ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2434" class="emp-name">	
+Eklund, Niklas 
+</a>
+<span class="emp-title">
+Ekonom
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-6841">018-471 6841</a>
+</span>
+<a class="obEmail emp-email">niklas.eklund<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N2-920_img">
+<img onload="checkImgLoad('N2-920');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N2-920/portrait" alt="Ekström, Erik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N2-920" class="emp-name">	
+Ekström, Erik 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3834">018-471 3834</a>
+</span>
+<a class="obEmail emp-email">erik.ekstrom<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1531_img">
+<img onload="checkImgLoad('N22-1531');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1531/portrait" alt="Ellingsen, Ask ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1531" class="emp-name">	
+Ellingsen, Ask 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ask.ellingsen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N11-1353_img">
+<img onload="checkImgLoad('N11-1353');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N11-1353/portrait" alt="Figueras, Jordi-Lluís ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N11-1353" class="emp-name">	
+Figueras, Jordi-Lluís 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3316">018-471 3316</a>
+</span>
+<a class="obEmail emp-email">jordi-lluis.figueras<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N9-426_img">
+<img onload="checkImgLoad('N9-426');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N9-426/portrait" alt="Gaidashev, Denis ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N9-426" class="emp-name">	
+Gaidashev, Denis 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3172">018-471 3172</a>
+</span>
+<a class="obEmail emp-email">denis.gaydashev<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1536_img">
+<img onload="checkImgLoad('N22-1536');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1536/portrait" alt="Garino, Valentin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1536" class="emp-name">	
+Garino, Valentin 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">valentin.garino<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2143_img">
+<img onload="checkImgLoad('N21-2143');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2143/portrait" alt="Gauffin, Clara ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2143" class="emp-name">	
+Gauffin, Clara 
+</a>
+<span class="emp-title">
+Studievägledare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3200">018-471 3200</a>
+</span>
+<a class="obEmail emp-email">clara.gauffin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N9-747_img">
+<img onload="checkImgLoad('N9-747');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N9-747/portrait" alt="Getsadze, Rostom ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N9-747" class="emp-name">	
+Getsadze, Rostom 
+</a>
+<span class="emp-title">
+Universitetsadjunkt
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">rostom.getsadze<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1825_img">
+<img onload="checkImgLoad('N22-1825');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1825/portrait" alt="Graczyk, Marc ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1825" class="emp-name">	
+Graczyk, Marc 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">marc.graczyk<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1437_img">
+<img onload="checkImgLoad('XX1437');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1437/portrait" alt="Gut, Allan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1437" class="emp-name">	
+Gut, Allan 
+</a>
+<span class="emp-title">
+Professor emer. i matematik med inriktning mot matematisk statistik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">allan.gut<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1677_img">
+<img onload="checkImgLoad('N23-1677');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1677/portrait" alt="Gutierrez Espinoza, Daniel ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1677" class="emp-name">	
+Gutierrez Espinoza, Daniel 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">daniel.gutierrez_espinoza<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N13-1013_img">
+<img onload="checkImgLoad('N13-1013');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N13-1013/portrait" alt="Gyllingberg, Linnéa ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N13-1013" class="emp-name">	
+Gyllingberg, Linnéa 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3282">018-471 3282</a>
+</span>
+<a class="obEmail emp-email">linnea.gyllingberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1560_img">
+<img onload="checkImgLoad('N21-1560');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1560/portrait" alt="Hasan, Azeem ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1560" class="emp-name">	
+Hasan, Azeem 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3273">018-471 3273</a>
+</span>
+<a class="obEmail emp-email">azeem.hasan<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-71_img">
+<img onload="checkImgLoad('N22-71');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-71/portrait" alt="Heckel, Annika ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-71" class="emp-name">	
+Heckel, Annika 
+</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3020">018-471 3020</a>
+</span>
+<a class="obEmail emp-email">annika.heckel<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1437_img">
+<img onload="checkImgLoad('N21-1437');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1437/portrait" alt="Hedenlund, Alice ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1437" class="emp-name">	
+Hedenlund, Alice 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3272">018-471 3272</a>
+</span>
+<a class="obEmail emp-email">alice.hedenlund<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1253_img">
+<img onload="checkImgLoad('N17-1253');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1253/portrait" alt="Hedlund, William ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1253" class="emp-name">	
+Hedlund, William 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3274">018-471 3274</a>
+</span>
+<a class="obEmail emp-email">william.hedlund<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N7-1532_img">
+<img onload="checkImgLoad('N7-1532');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N7-1532/portrait" alt="Hedén, Isac ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N7-1532" class="emp-name">	
+Hedén, Isac 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3292">018-471 3292</a>
+</span>
+<a class="obEmail emp-email">isac.heden<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N94-700_img">
+<img onload="checkImgLoad('N94-700');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N94-700/portrait" alt="Hejhal, Dennis A. ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N94-700" class="emp-name">	
+Hejhal, Dennis A. 
+</a>
+<span class="emp-title">
+Professor emeritus i matematik 
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">dennis.hejhal<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-508_img">
+<img onload="checkImgLoad('N20-508');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-508/portrait" alt="Hellberg, Jörgen ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-508" class="emp-name">	
+Hellberg, Jörgen 
+</a>
+<span class="emp-title">
+Administrativ chef
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3066">018-471 3066</a>
+</span>
+<a class="obEmail emp-email">jorgen.hellberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1392_img">
+<img onload="checkImgLoad('N21-1392');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1392/portrait" alt="Hendi, Yacoub ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1392" class="emp-name">	
+Hendi, Yacoub 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">yacoub.hendi<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N3-1376_img">
+<img onload="checkImgLoad('N3-1376');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N3-1376/portrait" alt="Herschend, Martin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N3-1376" class="emp-name">	
+Herschend, Martin 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3187">018-471 3187</a>
+</span>
+<a class="obEmail emp-email">martin.herschend<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1376_img">
+<img onload="checkImgLoad('N23-1376');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1376/portrait" alt="Holmberg, Kristoffer ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1376" class="emp-name">	
+Holmberg, Kristoffer 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">kristoffer.holmberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N5-824_img">
+<img onload="checkImgLoad('N5-824');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N5-824/portrait" alt="Holmgren, Cecilia ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N5-824" class="emp-name">	
+Holmgren, Cecilia 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3278">018-471 3278</a>
+</span>
+<a class="obEmail emp-email">cecilia.holmgren<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1411_img">
+<img onload="checkImgLoad('N20-1411');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1411/portrait" alt="Hou, Mingyi ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1411" class="emp-name">	
+Hou, Mingyi 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">mingyi.hou<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N12-2347_img">
+<img onload="checkImgLoad('N12-2347');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N12-2347/portrait" alt="Husin, Axel ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N12-2347" class="emp-name">	
+Husin, Axel 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3277">018-471 3277</a>
+</span>
+<a class="obEmail emp-email">axel.husin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N16-1610_img">
+<img onload="checkImgLoad('N16-1610');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N16-1610/portrait" alt="Israelsson, Anders ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N16-1610" class="emp-name">	
+Israelsson, Anders 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3292">018-471 3292</a>
+</span>
+<a class="obEmail emp-email">anders.israelsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N96-2566_img">
+<img onload="checkImgLoad('N96-2566');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N96-2566/portrait" alt="Jacobsson, Magnus ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N96-2566" class="emp-name">	
+Jacobsson, Magnus 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-6278">018-471 6278</a>
+</span>
+<a class="obEmail emp-email">magnus.jacobsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1218_img">
+<img onload="checkImgLoad('N20-1218');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1218/portrait" alt="Jakobsson, Ellen ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1218" class="emp-name">	
+Jakobsson, Ellen 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ellen.jakobsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX2949_img">
+<img onload="checkImgLoad('XX2949');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX2949/portrait" alt="Janson, Svante ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX2949" class="emp-name">	
+Janson, Svante 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3188">018-471 3188</a>
+</span>
+<a class="obEmail emp-email">svante.janson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-369_img">
+<img onload="checkImgLoad('N22-369');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-369/portrait" alt="Jeannin, Marion ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-369" class="emp-name">	
+Jeannin, Marion 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">marion.jeannin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N11-1506_img">
+<img onload="checkImgLoad('N11-1506');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N11-1506/portrait" alt="Jin, Shaobo ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N11-1506" class="emp-name">	
+Jin, Shaobo 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3217">018-471 3217</a>
+</span>
+<a class="obEmail emp-email">shaobo.jin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1547_img">
+<img onload="checkImgLoad('N22-1547');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1547/portrait" alt="Jonsevall, Salomon ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1547" class="emp-name">	
+Jonsevall, Salomon 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">salomon.jonsevall<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N14-1184_img">
+<img onload="checkImgLoad('N14-1184');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N14-1184/portrait" alt="Jonsson, Helena ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N14-1184" class="emp-name">	
+Jonsson, Helena 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3286">018-471 3286</a>
+</span>
+<a class="obEmail emp-email">helena.jonsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX913_img">
+<img onload="checkImgLoad('XX913');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX913/portrait" alt="Kaijser, Sten ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX913" class="emp-name">	
+Kaijser, Sten 
+</a>
+<span class="emp-title">
+Professor emer. i matematik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">sten.kaijser<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX3171_img">
+<img onload="checkImgLoad('XX3171');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX3171/portrait" alt="Kaj, Ingemar ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX3171" class="emp-name">	
+Kaj, Ingemar 
+</a>
+<span class="emp-title">
+Professor i matematisk statistik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3287">018-471 3287</a>
+</span>
+<a class="obEmail emp-email">ingemar.kaj<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N13-1546_img">
+<img onload="checkImgLoad('N13-1546');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N13-1546/portrait" alt="Karlsson, Anders ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N13-1546" class="emp-name">	
+Karlsson, Anders 
+</a>
+<span class="emp-title">
+Professor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3226">018-471 3226</a>
+</span>
+<a class="obEmail emp-email">anders.karlsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2485_img">
+<img onload="checkImgLoad('N21-2485');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2485/portrait" alt="Kim, Sunghan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2485" class="emp-name">	
+Kim, Sunghan 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3186">018-471 3186</a>
+</span>
+<a class="obEmail emp-email">sunghan.kim<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX781_img">
+<img onload="checkImgLoad('XX781');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX781/portrait" alt="Kiselman, Christer Oscar ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX781" class="emp-name">	
+Kiselman, Christer Oscar 
+</a>
+<span class="emp-title">
+Professor emeritus
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">christer.kiselman<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="AA260_img">
+<img onload="checkImgLoad('AA260');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/AA260/portrait" alt="Klimek, Maciej ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=AA260" class="emp-name">	
+Klimek, Maciej 
+</a>
+<span class="emp-title">
+Professor emer. i matematik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">maciej.klimek<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-1861_img">
+<img onload="checkImgLoad('N19-1861');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-1861/portrait" alt="Ko, Hankyung ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-1861" class="emp-name">	
+Ko, Hankyung 
+</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3236">018-471 3236</a>
+</span>
+<a class="obEmail emp-email">hankyung.ko<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N96-558_img">
+<img onload="checkImgLoad('N96-558');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N96-558/portrait" alt="Koponen, Vera ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N96-558" class="emp-name">	
+Koponen, Vera 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3185">018-471 3185</a>
+</span>
+<a class="obEmail emp-email">vera.koponen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N15-1460_img">
+<img onload="checkImgLoad('N15-1460');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N15-1460/portrait" alt="Kozhan, Rostyslav ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N15-1460" class="emp-name">	
+Kozhan, Rostyslav 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3259">018-471 3259</a>
+</span>
+<a class="obEmail emp-email">rostyslav.kozhan<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N12-1587_img">
+<img onload="checkImgLoad('N12-1587');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N12-1587/portrait" alt="Kragh, Thomas ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N12-1587" class="emp-name">	
+Kragh, Thomas 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3211">018-471 3211</a>
+</span>
+<a class="obEmail emp-email">thomas.kragh<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1115_img">
+<img onload="checkImgLoad('N18-1115');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1115/portrait" alt="Külshammer, Julian ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1115" class="emp-name">	
+Külshammer, Julian 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3489">018-471 3489</a>
+</span>
+<a class="obEmail emp-email">julian.kuelshammer<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-2084_img">
+<img onload="checkImgLoad('N18-2084');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-2084/portrait" alt="Landelius, Mattias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-2084" class="emp-name">	
+Landelius, Mattias 
+</a>
+<span class="emp-title">
+Kurssamordnare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3202">018-471 3202</a>
+</span>
+<a class="obEmail emp-email">mattias.landelius<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N3-1163_img">
+<img onload="checkImgLoad('N3-1163');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N3-1163/portrait" alt="Larfors, Magdalena ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N3-1163" class="emp-name">	
+Larfors, Magdalena 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">magdalena.larfors<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N2-6_img">
+<img onload="checkImgLoad('N2-6');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N2-6/portrait" alt="Larsson, Rolf ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N2-6" class="emp-name">	
+Larsson, Rolf 
+</a>
+<span class="emp-title">
+Professor i tillämpad matematik och statistik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3182">018-471 3182</a>
+</span>
+<a class="obEmail emp-email">rolf.h.larsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-2327_img">
+<img onload="checkImgLoad('N19-2327');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-2327/portrait" alt="Legout, Noémie ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-2327" class="emp-name">	
+Legout, Noémie 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3280">018-471 3280</a>
+</span>
+<a class="obEmail emp-email">noemie.legout<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1562_img">
+<img onload="checkImgLoad('N21-1562');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1562/portrait" alt="Leigh, Oliver ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1562" class="emp-name">	
+Leigh, Oliver 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3186">018-471 3186</a>
+</span>
+<a class="obEmail emp-email">oliver.leigh<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-123_img">
+<img onload="checkImgLoad('N21-123');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-123/portrait" alt="Li, Feng ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-123" class="emp-name">	
+Li, Feng 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3389">018-471 3389</a>
+</span>
+<a class="obEmail emp-email">feng.li<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1292_img">
+<img onload="checkImgLoad('XX1292');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1292/portrait" alt="Lindahl, Lars-Åke ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1292" class="emp-name">	
+Lindahl, Lars-Åke 
+</a>
+<span class="emp-title">
+pens. Universitetslektor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">lars-ake.lindahl<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1265_img">
+<img onload="checkImgLoad('N20-1265');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1265/portrait" alt="Lindell, Jonathan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1265" class="emp-name">	
+Lindell, Jonathan 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">jonathan.lindell<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1444_img">
+<img onload="checkImgLoad('N18-1444');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1444/portrait" alt="Lindgren, Erik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1444" class="emp-name">	
+Lindgren, Erik 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3215">018-471 3215</a>
+</span>
+<a class="obEmail emp-email">erik.lindgren<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N15-1139_img">
+<img onload="checkImgLoad('N15-1139');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N15-1139/portrait" alt="Linroth, Victor ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N15-1139" class="emp-name">	
+Linroth, Victor 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3274">018-471 3274</a>
+</span>
+<a class="obEmail emp-email">victor.linroth<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1257_img">
+<img onload="checkImgLoad('N17-1257');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1257/portrait" alt="Litsgård, Malte ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1257" class="emp-name">	
+Litsgård, Malte 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-5878">018-471 5878</a>
+</span>
+<a class="obEmail emp-email">malte.litsgard<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1557_img">
+<img onload="checkImgLoad('N21-1557');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1557/portrait" alt="Liu, Muyang ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1557" class="emp-name">	
+Liu, Muyang 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3272">018-471 3272</a>
+</span>
+<a class="obEmail emp-email">muyang.liu<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1537_img">
+<img onload="checkImgLoad('N22-1537');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1537/portrait" alt="Lo, Yin Yuan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1537" class="emp-name">	
+Lo, Yin Yuan 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">yin_yuan.lo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2008_img">
+<img onload="checkImgLoad('N22-2008');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2008/portrait" alt="Lockhart, Guglielmo ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2008" class="emp-name">	
+Lockhart, Guglielmo 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">guglielmo.lockhart<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N15-1714_img">
+<img onload="checkImgLoad('N15-1714');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N15-1714/portrait" alt="Longhi, Pietro ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N15-1714" class="emp-name">	
+Longhi, Pietro 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">pietro.longhi<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1541_img">
+<img onload="checkImgLoad('N17-1541');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1541/portrait" alt="Lundberg, David ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1541" class="emp-name">	
+Lundberg, David 
+</a>
+<span class="emp-title">
+Assistent med doktoranduppgifter
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3224">018-471 3224</a>
+</span>
+<a class="obEmail emp-email">david.lundberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1680_img">
+<img onload="checkImgLoad('N23-1680');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1680/portrait" alt="Lundblad, Jacob ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1680" class="emp-name">	
+Lundblad, Jacob 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">jacob.lundblad<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-2326_img">
+<img onload="checkImgLoad('N19-2326');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-2326/portrait" alt="Lundholm, Douglas ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-2326" class="emp-name">	
+Lundholm, Douglas 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">douglas.lundholm<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1230_img">
+<img onload="checkImgLoad('N17-1230');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1230/portrait" alt="Magill, Matthew ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1230" class="emp-name">	
+Magill, Matthew 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">matthew.magill<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2138_img">
+<img onload="checkImgLoad('N21-2138');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2138/portrait" alt="Matkovic, Irena ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2138" class="emp-name">	
+Matkovic, Irena 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">irena.matkovic<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1407_img">
+<img onload="checkImgLoad('N20-1407');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1407/portrait" alt="Mattsson, Tobias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1407" class="emp-name">	
+Mattsson, Tobias 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3274">018-471 3274</a>
+</span>
+<a class="obEmail emp-email">tobias.mattsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N1-667_img">
+<img onload="checkImgLoad('N1-667');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N1-667/portrait" alt="Mazorchuk, Volodymyr ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N1-667" class="emp-name">	
+Mazorchuk, Volodymyr 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3284">018-471 3284</a>
+</span>
+<a class="obEmail emp-email">volodymyr.mazorchuk<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-971_img">
+<img onload="checkImgLoad('N19-971');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-971/portrait" alt="Meco, Benjamin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-971" class="emp-name">	
+Meco, Benjamin 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3206">018-471 3206</a>
+</span>
+<a class="obEmail emp-email">benjamin.meco<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-872_img">
+<img onload="checkImgLoad('N21-872');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-872/portrait" alt="Meynet, Shani Nadir ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-872" class="emp-name">	
+Meynet, Shani Nadir 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">shani.meynet<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1678_img">
+<img onload="checkImgLoad('N23-1678');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1678/portrait" alt="Migliorati, Daniele ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1678" class="emp-name">	
+Migliorati, Daniele 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">daniele.migliorati<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1779_img">
+<img onload="checkImgLoad('N21-1779');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1779/portrait" alt="Milazzo, Alessandro ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1779" class="emp-name">	
+Milazzo, Alessandro 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3217">018-471 3217</a>
+</span>
+<a class="obEmail emp-email">alessandro.milazzo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2011_img">
+<img onload="checkImgLoad('N21-2011');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2011/portrait" alt="Mohammadpour, Reza ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2011" class="emp-name">	
+Mohammadpour, Reza 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">reza.mohammadpour<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1410_img">
+<img onload="checkImgLoad('N20-1410');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1410/portrait" alt="Morozova, Taisiia ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1410" class="emp-name">	
+Morozova, Taisiia 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3224">018-471 3224</a>
+</span>
+<a class="obEmail emp-email">taisiia.morozova<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-32_img">
+<img onload="checkImgLoad('N21-32');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-32/portrait" alt="Mosa, Mohammed ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-32" class="emp-name">	
+Mosa, Mohammed 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">mohammed.mosa<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1175_img">
+<img onload="checkImgLoad('N20-1175');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1175/portrait" alt="Moscrop, Robert ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1175" class="emp-name">	
+Moscrop, Robert 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">robert.moscrop<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1676_img">
+<img onload="checkImgLoad('N23-1676');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1676/portrait" alt="Mosný, Stanislav ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1676" class="emp-name">	
+Mosný, Stanislav 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">stanislav.mosny<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-2006_img">
+<img onload="checkImgLoad('N17-2006');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-2006/portrait" alt="Müller, Rebekka ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-2006" class="emp-name">	
+Müller, Rebekka 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-5878">018-471 5878</a>
+</span>
+<a class="obEmail emp-email">rebekka.muller<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1406_img">
+<img onload="checkImgLoad('N20-1406');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1406/portrait" alt="Nakamura, Lukas ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1406" class="emp-name">	
+Nakamura, Lukas 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3277">018-471 3277</a>
+</span>
+<a class="obEmail emp-email">lukas.nakamura<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1499_img">
+<img onload="checkImgLoad('N22-1499');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1499/portrait" alt="Nestius, Liam ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1499" class="emp-name">	
+Nestius, Liam 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">liam.nestius<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2456_img">
+<img onload="checkImgLoad('N22-2456');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2456/portrait" alt="Nguyen, Dinh Thi ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2456" class="emp-name">	
+Nguyen, Dinh Thi 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3213">018-471 3213</a>
+</span>
+<a class="obEmail emp-email">dinh_thi.nguyen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N94-1986_img">
+<img onload="checkImgLoad('N94-1986');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N94-1986/portrait" alt="Nyström, Kaj ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N94-1986" class="emp-name">	
+Nyström, Kaj 
+</a>
+<span class="emp-title">
+Professor i matematisk analys 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3285">018-471 3285</a>
+</span>
+<a class="obEmail emp-email">kaj.nystrom<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1433_img">
+<img onload="checkImgLoad('N18-1433');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1433/portrait" alt="Olsson, Christoffer ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1433" class="emp-name">	
+Olsson, Christoffer 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3224">018-471 3224</a>
+</span>
+<a class="obEmail emp-email">christoffer.olsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-1971_img">
+<img onload="checkImgLoad('N19-1971');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-1971/portrait" alt="Palmer, Matthew ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-1971" class="emp-name">	
+Palmer, Matthew 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3286">018-471 3286</a>
+</span>
+<a class="obEmail emp-email">matthew.palmer<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-1639_img">
+<img onload="checkImgLoad('N19-1639');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-1639/portrait" alt="Persson, Aron ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-1639" class="emp-name">	
+Persson, Aron 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3286">018-471 3286</a>
+</span>
+<a class="obEmail emp-email">aron.persson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N2-1640_img">
+<img onload="checkImgLoad('N2-1640');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N2-1640/portrait" alt="Persson, Lars-Erik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N2-1640" class="emp-name">	
+Persson, Lars-Erik 
+</a>
+<span class="emp-title">
+Professor emer. i matematik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">lars-erik.persson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N7-1224_img">
+<img onload="checkImgLoad('N7-1224');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N7-1224/portrait" alt="Qiu, Jian ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N7-1224" class="emp-name">	
+Qiu, Jian 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-7625">018-471 7625</a>
+</span>
+<a class="obEmail emp-email">jian.qiu<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX3977_img">
+<img onload="checkImgLoad('XX3977');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX3977/portrait" alt="Randler, Anders ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX3977" class="emp-name">	
+Randler, Anders 
+</a>
+<span class="emp-title">
+Universitetsadjunkt
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">anders.randler<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1826_img">
+<img onload="checkImgLoad('N22-1826');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1826/portrait" alt="Raner, Max ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1826" class="emp-name">	
+Raner, Max 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">max.raner<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2249_img">
+<img onload="checkImgLoad('N22-2249');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2249/portrait" alt="Rehman, Hadid ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2249" class="emp-name">	
+Rehman, Hadid 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">hadid.rehman<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1173_img">
+<img onload="checkImgLoad('N20-1173');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1173/portrait" alt="Riedel Gårding, Elias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1173" class="emp-name">	
+Riedel Gårding, Elias 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3318">018-471 3318</a>
+</span>
+<a class="obEmail emp-email">elias.riedel_garding<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1628_img">
+<img onload="checkImgLoad('N21-1628');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1628/portrait" alt="Rodriguez Rasmussen, Anna ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1628" class="emp-name">	
+Rodriguez Rasmussen, Anna 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">anna.rodriguez-rasmussen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1786_img">
+<img onload="checkImgLoad('XX1786');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1786/portrait" alt="Rubinsztein, Ryszard ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1786" class="emp-name">	
+Rubinsztein, Ryszard 
+</a>
+<span class="emp-title">
+pens. Universitetslektor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ryszard.rubinsztein<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2007_img">
+<img onload="checkImgLoad('N22-2007');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2007/portrait" alt="Rubio y Degrassi, Lleonard ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2007" class="emp-name">	
+Rubio y Degrassi, Lleonard 
+</a>
+<span class="emp-title">
+Forskare
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">lleonard.rubio<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2241_img">
+<img onload="checkImgLoad('N22-2241');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2241/portrait" alt="Runyeon Odeberg, Samuel ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2241" class="emp-name">	
+Runyeon Odeberg, Samuel 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">samuel.runyeon_odeberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1500_img">
+<img onload="checkImgLoad('N22-1500');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1500/portrait" alt="Rydgren, Brian ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1500" class="emp-name">	
+Rydgren, Brian 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">brian.rydgren<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N15-1572_img">
+<img onload="checkImgLoad('N15-1572');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N15-1572/portrait" alt="Rydholm, Johan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N15-1572" class="emp-name">	
+Rydholm, Johan 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3513">018-471 3513</a>
+</span>
+<a class="obEmail emp-email">johan.rydholm<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-214_img">
+<img onload="checkImgLoad('N17-214');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-214/portrait" alt="Sainudiin, Raazesh ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-214" class="emp-name">	
+Sainudiin, Raazesh 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3153">018-471 3153</a>
+</span>
+<a class="obEmail emp-email">raazesh.sainudiin<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3153">018-471 3153</a>
+</span>
+<a class="obEmail emp-email">raazesh.sainudiin<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N16-459_img">
+<img onload="checkImgLoad('N16-459');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N16-459/portrait" alt="Sakovich, Anna ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N16-459" class="emp-name">	
+Sakovich, Anna 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3218">018-471 3218</a>
+</span>
+<a class="obEmail emp-email">anna.sakovich<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-6_img">
+<img onload="checkImgLoad('N22-6');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-6/portrait" alt="Schwarzacher, Sebastian ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-6" class="emp-name">	
+Schwarzacher, Sebastian 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3013">018-471 3013</a>
+</span>
+<a class="obEmail emp-email">sebastian.schwarzacher<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX3351_img">
+<img onload="checkImgLoad('XX3351');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX3351/portrait" alt="Sigstam, Inger ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX3351" class="emp-name">	
+Sigstam, Inger 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3223">018-471 3223</a>
+</span>
+<a class="obEmail emp-email">inger.sigstam<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="AA131_img">
+<img onload="checkImgLoad('AA131');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/AA131/portrait" alt="Sigstam, Kibret ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=AA131" class="emp-name">	
+Sigstam, Kibret 
+</a>
+<span class="emp-title">
+Studievägledare
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3203">018-471 3203</a>
+</span>
+<a class="obEmail emp-email">kibret.sigstam<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-70_img">
+<img onload="checkImgLoad('N17-70');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-70/portrait" alt="Skerman, Fiona ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-70" class="emp-name">	
+Skerman, Fiona 
+</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3194">018-471 3194</a>
+</span>
+<a class="obEmail emp-email">fiona.skerman<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3194">018-471 3194</a>
+</span>
+<a class="obEmail emp-email">fiona.skerman<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N11-1643_img">
+<img onload="checkImgLoad('N11-1643');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N11-1643/portrait" alt="Staubach, Wolfgang ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N11-1643" class="emp-name">	
+Staubach, Wolfgang 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3239">018-471 3239</a>
+</span>
+<a class="obEmail emp-email">wolfgang.staubach<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N7-19_img">
+<img onload="checkImgLoad('N7-19');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N7-19/portrait" alt="Stenflo, Örjan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N7-19" class="emp-name">	
+Stenflo, Örjan 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3179">018-471 3179</a>
+</span>
+<a class="obEmail emp-email">orjan.stenflo<span class="rplcAt">@</span>math.uu.se</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3179">018-471 3179</a>
+</span>
+<a class="obEmail emp-email">orjan.stenflo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX1135_img">
+<img onload="checkImgLoad('XX1135');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX1135/portrait" alt="Stoltenberg-Hansen, Viggo ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX1135" class="emp-name">	
+Stoltenberg-Hansen, Viggo 
+</a>
+<span class="emp-title">
+Professor emer. i matematik med inriktning mot matematisk logik
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">viggo.stoltenberg-hansen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1722_img">
+<img onload="checkImgLoad('N22-1722');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1722/portrait" alt="Strakos, Filip ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1722" class="emp-name">	
+Strakos, Filip 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">filip.strakos<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1172_img">
+<img onload="checkImgLoad('N20-1172');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1172/portrait" alt="Stroinski, Mateusz ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1172" class="emp-name">	
+Stroinski, Mateusz 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-2842">018-471 2842</a>
+</span>
+<a class="obEmail emp-email">mateusz.stroinski<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N94-2157_img">
+<img onload="checkImgLoad('N94-2157');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N94-2157/portrait" alt="Strömbergsson, Andreas ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N94-2157" class="emp-name">	
+Strömbergsson, Andreas 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3221">018-471 3221</a>
+</span>
+<a class="obEmail emp-email">andreas.strombergsson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N3-456_img">
+<img onload="checkImgLoad('N3-456');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N3-456/portrait" alt="Sundbaum, Sofia ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N3-456" class="emp-name">	
+Sundbaum, Sofia 
+</a>
+<span class="emp-title">
+Ekonom
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3356">018-471 3356</a>
+</span>
+<a class="obEmail emp-email">sofia.sundbaum<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1430_img">
+<img onload="checkImgLoad('N18-1430');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1430/portrait" alt="Söderberg, Christoffer ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1430" class="emp-name">	
+Söderberg, Christoffer 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3277">018-471 3277</a>
+</span>
+<a class="obEmail emp-email">christoffer.soderberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1599_img">
+<img onload="checkImgLoad('N23-1599');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1599/portrait" alt="Takeda, Alex ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1599" class="emp-name">	
+Takeda, Alex 
+</a>
+<span class="emp-title">
+Postdoktor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">alex.takeda<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1281_img">
+<img onload="checkImgLoad('N18-1281');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1281/portrait" alt="Thuresson, Markus ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1281" class="emp-name">	
+Thuresson, Markus 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3513">018-471 3513</a>
+</span>
+<a class="obEmail emp-email">markus.thuresson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2484_img">
+<img onload="checkImgLoad('N21-2484');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2484/portrait" alt="Tolonen, Topias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2484" class="emp-name">	
+Tolonen, Topias 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">topias.tolonen<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-1283_img">
+<img onload="checkImgLoad('N22-1283');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-1283/portrait" alt="Toropova, Ekaterina ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-1283" class="emp-name">	
+Toropova, Ekaterina 
+</a>
+<span class="emp-title">
+Forskningsassistent
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ekaterina.toropova<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-2560_img">
+<img onload="checkImgLoad('N21-2560');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-2560/portrait" alt="Tousinejad, Yasmin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-2560" class="emp-name">	
+Tousinejad, Yasmin 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">yasmin.tousinejad<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX4412_img">
+<img onload="checkImgLoad('XX4412');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX4412/portrait" alt="Tucker, Warwick ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX4412" class="emp-name">	
+Tucker, Warwick 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">warwick.tucker<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-2378_img">
+<img onload="checkImgLoad('N19-2378');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-2378/portrait" alt="Tydesjö, Patrik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-2378" class="emp-name">	
+Tydesjö, Patrik 
+</a>
+<span class="emp-title">
+Universitetsadjunkt
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">patrik.tydesjo<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="XX3433_img">
+<img onload="checkImgLoad('XX3433');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/XX3433/portrait" alt="Tysk, Johan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=XX3433" class="emp-name">	
+Tysk, Johan 
+</a>
+<span class="emp-title">
+Professor i matematik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3208">018-471 3208</a>
+</span>
+<a class="obEmail emp-email">johan.tysk<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N17-1254_img">
+<img onload="checkImgLoad('N17-1254');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N17-1254/portrait" alt="Vaktnäs, Marcus ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N17-1254" class="emp-name">	
+Vaktnäs, Marcus 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">marcus.vaktnas<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N20-1533_img">
+<img onload="checkImgLoad('N20-1533');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N20-1533/portrait" alt="Vestberg, Matias ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N20-1533" class="emp-name">	
+Vestberg, Matias 
+</a>
+<span class="emp-title">
+Biträdande universitetslektor
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">matias.vestberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1253_img">
+<img onload="checkImgLoad('N21-1253');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1253/portrait" alt="Viitasaari, Lauri ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1253" class="emp-name">	
+Viitasaari, Lauri 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-2890">018-471 2890</a>
+</span>
+<a class="obEmail emp-email">lauri.viitasaari<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N19-23_img">
+<img onload="checkImgLoad('N19-23');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N19-23/portrait" alt="Wagner, Stephan ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N19-23" class="emp-name">	
+Wagner, Stephan 
+</a>
+<span class="emp-title">
+Professor i matematik med inriktning mot sannolikhetsteori 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3288">018-471 3288</a>
+</span>
+<a class="obEmail emp-email">stephan.wagner<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-1800_img">
+<img onload="checkImgLoad('N23-1800');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-1800/portrait" alt="Walden, Moritz ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-1800" class="emp-name">	
+Walden, Moritz 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">moritz.walden<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1255_img">
+<img onload="checkImgLoad('N21-1255');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1255/portrait" alt="Wang, Ruoyu ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1255" class="emp-name">	
+Wang, Ruoyu 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">ruoyu.wang<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N18-1434_img">
+<img onload="checkImgLoad('N18-1434');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N18-1434/portrait" alt="Wang, Yuqiong ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N18-1434" class="emp-name">	
+Wang, Yuqiong 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-2842">018-471 2842</a>
+</span>
+<a class="obEmail emp-email">yuqiong.wang<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-617_img">
+<img onload="checkImgLoad('N22-617');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-617/portrait" alt="Wibäck, Annika ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-617" class="emp-name">	
+Wibäck, Annika 
+</a>
+<span class="emp-title">
+HR-generalist
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3290">018-471 3290</a>
+</span>
+<a class="obEmail emp-email">annika.wiback<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N23-2104_img">
+<img onload="checkImgLoad('N23-2104');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N23-2104/portrait" alt="Wogel, Simon ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N23-2104" class="emp-name">	
+Wogel, Simon 
+</a>
+<span class="emp-title">
+Amanuens
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">simon.wogel<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1634_img">
+<img onload="checkImgLoad('N21-1634');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1634/portrait" alt="Xing, Wei ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1634" class="emp-name">	
+Xing, Wei 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">wei.xing<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N0-668_img">
+<img onload="checkImgLoad('N0-668');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N0-668/portrait" alt="Zwanzig, Silvelyn ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N0-668" class="emp-name">	
+Zwanzig, Silvelyn 
+</a>
+<span class="emp-title">
+Professor i matematisk statistik 
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3184">018-471 3184</a>
+</span>
+<a class="obEmail emp-email">silvelyn.zwanzig<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N21-1639_img">
+<img onload="checkImgLoad('N21-1639');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N21-1639/portrait" alt="Ðukic, Milica ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N21-1639" class="emp-name">	
+Ðukic, Milica 
+</a>
+<span class="emp-title">
+Doktorand
+</span>
+<span class="emp-phone">
+</span>
+<a class="obEmail emp-email">milica.dukic<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N96-562_img">
+<img onload="checkImgLoad('N96-562');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N96-562/portrait" alt="Öberg, Anders ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N96-562" class="emp-name">	
+Öberg, Anders 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3196">018-471 3196</a>
+</span>
+<a class="obEmail emp-email">anders.oberg<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N22-2889_img">
+<img onload="checkImgLoad('N22-2889');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N22-2889/portrait" alt="Örså, Elin ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N22-2889" class="emp-name">	
+Örså, Elin 
+</a>
+<span class="emp-title">
+Kursadministratör
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-2807">018-471 2807</a>
+</span>
+<a class="obEmail emp-email">elin.orsa<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N7-1535_img">
+<img onload="checkImgLoad('N7-1535');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N7-1535/portrait" alt="Östensson, Jörgen ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N7-1535" class="emp-name">	
+Östensson, Jörgen 
+</a>
+<span class="emp-title">
+Universitetslektor
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3289">018-471 3289</a>
+</span>
+<a class="obEmail emp-email">jorgen.ostensson<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+<li>
+<div class="emp-profile-image emp-profile-image-missing" id="N14-1150_img">
+<img onload="checkImgLoad('N14-1150');" src="https://webb.uu.se/LR-EmployeeInformation-portlet/people/N14-1150/portrait" alt="Östergren, Erik ">
+</div>
+<div class="emp-information">
+<a href="http://katalog.uu.se/empinfo/?id=N14-1150" class="emp-name">	
+Östergren, Erik 
+</a>
+<span class="emp-title">
+Adjungerad universitetsadjunkt
+</span>
+<span class="emp-phone">
+<a href="tel:018-471-3066">018-471 3066</a>
+</span>
+<a class="obEmail emp-email">erik.ostergren<span class="rplcAt">@</span>math.uu.se</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- index_stop -->
+<div class="page-tools-bottom page-tools rs_preserve">
+<span class="page-tool last-modified">Senast uppdaterad: 2022-11-08</span>
+<div class="page-tool print">
+<span class="print-icon">
+<a accessKey="P" href="#" class="js-print-page">Skriv ut</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</div>
+<footer class="footer-element ">
+<div class="footer-content-wrap container">
+<div class="unit size1of3 ">
+<h2>Kontakta matematiska institutionen</h2>
+<div class="footer-content">
+<ul>
+
+<li><a href="mailto:studievagledare@math.uu.se">Kontakta studiev&auml;gledarna via e-post</a></li>
+
+<li><a href="mailto:studexp@math.uu.se">Kontakta kursadministrationen&nbsp;via e-post</a></li>
+
+<li><a href="http://katalog.uu.se/orginfo/?languageId=3&amp;orgId=TM3">Organisation och personal</a></li>
+
+</ul>
+
+</div>
+</div>
+<div class="unit size1of3 ">
+<h2>Besök matematiska institutionen</h2>
+<div class="footer-content">
+<p>Vi finns p&aring; fj&auml;rde v&aring;ningen i&nbsp;hus 1, 6 och 7 i &Aring;ngstr&ouml;mlaboratoriet p&aring; L&auml;gerhyddsv&auml;gen 1.</p>
+
+<p><a href="https://www.google.se/maps/search/Uppsala+universitet+Matematiska+institutionen,+L%C3%A4gerhyddsv%C3%A4gen,+Uppsala/@59.8390055,17.6479755,18z/data=!3m1!4b1">Karta</a></p>
+
+<p></p>
+
+</div>
+</div>
+<div class="unit size1of3 last">
+<h2>Genvägar</h2>
+<div class="footer-content">
+<ul>
+
+<li><a href="https://www.uu.se/student">Student</a></li>
+
+<li><a href="http://www.mp.uu.se">Medarbetarportalen</a></li>
+
+<li><a href="/institutionen/lediga-tjanster/">Lediga tj&auml;nster</a></li>
+
+<li><a href="http://www.teknat.uu.se">Vetenskapsomr&aring;det f&ouml;r teknik och naturvetenskap</a></li>
+
+</ul>
+
+<p></p>
+
+</div>
+</div>
+<div class="bg-city"></div>
+</div>
+<div class="footer-stripe"></div>
+<div class="footer-site-information">
+<p>
+<span class="footer-site-entry">
+© Uppsala universitet
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+Telefon: <span class="tel">018-471 00 00</span>
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+Box 256, 751 05 Uppsala
+</span>
+</p>
+<p>
+<span class="footer-site-entry">
+Organisationsnummer: 202100-2932
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+Momsregistreringsnummer: SE202100293201
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+PIC: 999985029
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+<a href="https://www.uu.se/kontakt-och-organisation/registrator">Registrator</a>
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+<a href="https://www.uu.se/om-webbplatsen">Om webbplatsen</a>
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+<a href="https://www.uu.se/om-uu/dataskyddspolicy/">Dataskyddspolicy</a>
+<span class="separator"></span>
+</span>
+<span class="footer-site-entry">
+Sidansvarig:&nbsp;<a href="https://katalog.uu.se/empinfo?id=N0-958">Marie Chajara Svensson</a>
+</span>
+</p>
+</div>
+</footer>
+</div>
+<script language="javascript" type="text/javascript" src="/script/uu/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+try {
+var listSelector = '.list, .calendar-event-list, .puff-search-uu, .diva-reader, ' +
+'.search-container, .syllabusSearchForm, #syllabusTable, #subjectListContainer, #listContent';
+// The selector div.introductory-note detects Scholarship Detail
+var detailSelector = '#document-detail, .calinfo, .nyhetsbankendocument, .positions, ' +
+'.unitEmployeeListContainer, .employeeInfoContainer, .newsDetailContainer, div.introductory-note, ' +
+'.utbkatProgrammeDocumentContainer, .rule-document, .syllabusHeader, .utbkat_CourseItem, .error-info, .page-not-found';
+if (jQuery(listSelector + ', ' + detailSelector).size() === 0) {
+jQuery('.last-modified').css({ 'visibility': 'visible' });
+}
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+jQuery(function() {
+if (!/^(.*;)?\s*hideCookieMessage\s*=/.test(document.cookie)) {
+var cookieDiv = document.body.querySelector('.cookie-message');
+cookieDiv.style.display = 'block';
+jQuery('button', cookieDiv).click(function() { 
+document.cookie = "hideCookieMessage=true;path=/;max-age=31536000";
+jQuery(cookieDiv).slideUp();
+});
+}
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="https://live.webb.uu.se/common/js/scrolltotop?languageId=3"></script>
+<script type="text/javascript">
+try {
+jQuery(function() {
+var $j = jQuery;
+$j(".rplcAt").replaceWith("@");
+$j(".obEmail").each(function () {
+$j(this).attr("href", "mailto:"+$j(this).text());
+});
+});
+jQuery('.a-z-filter-control a').click(function(e){
+var controls = jQuery(this).closest('.a-z-filter-container');
+var list = jQuery(this).closest('div:not(.a-z-filter-control)').find('.a-z-filter-list');
+if (jQuery(this).hasClass('show-all')) {
+jQuery('li', list).show();			
+}
+else {
+var selectedLetter = jQuery(this).text()[0];
+jQuery('li', list).hide().filter(function(){
+return jQuery(this).text().trim()[0].toUpperCase() == selectedLetter;
+}).show();
+}
+jQuery('a', controls).removeClass('a-z-filter-control-selcted');
+jQuery(this).addClass('a-z-filter-control-selcted');
+e.preventDefault();
+});
+jQuery('.a-z-filter-container').each(function(index, container) {
+var lettersToShow = [];
+jQuery('.a-z-filter-list li', container).each(function(index, listElement) {
+var firstLetter = jQuery(listElement).text().trim()[0].toUpperCase();
+if (jQuery.inArray(firstLetter, lettersToShow) == -1) {
+lettersToShow.push(firstLetter);
+}
+});
+jQuery('.a-z-filter-control a', container).each(function(index, linkElement) {
+if (index > 0 && jQuery.inArray(jQuery(linkElement).text(), lettersToShow) == -1) {
+jQuery(linkElement).replaceWith('<span>' + jQuery(this).text() + '</span>');
+}
+});
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="//f1-eu.readspeaker.com/script/4462/webReader/webReader.js?pids=wr"></script>
+<script type="text/javascript">
+try {
+<!--
+window.rsConf = {
+general: {
+popupHref: '//app-eu.readspeaker.com/cgi-bin/rsent?customerid=4462&lang=sv_se&readid=readspeaker-content&url=',
+selectionPlayer: '#xp1'
+}
+};
+//-->
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+jQuery('.login a').focus(function() {
+
+var loginElement = jQuery(this).closest('.login');
+
+jQuery('.dropdown', loginElement).show();
+
+}).blur(function() {
+
+var loginElement = jQuery(this).closest('.login');
+
+setTimeout(function() {
+
+if (!jQuery('a:focus', loginElement).size()) {
+
+jQuery('.dropdown', loginElement).hide();
+
+}
+
+}, 100);
+
+});
+
+jQuery('.login').hover(function (e) {
+
+jQuery('.dropdown', this).show()
+
+},
+
+function (e) {
+
+jQuery('.dropdown', this).hide() 	
+
+});
+
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="https://live.webb.uu.se/common/js/autocomplete"></script>
+<script type="text/javascript">
+try {
+jQuery(function () {
+jQuery("#mobile-search-form .search-group")
+.prepend('<label for="mainSearchFieldMobile" class="is-visually-hidden">Sök</label>')
+var extra = {
+searchParams: {
+limit: 5
+}
+};
+extra.searchParams.subdomain = 'math.uu.se';
+addAutoComplete('mainSearchField', '#js-main-search-complete-output', 'q', 'sv', extra);
+addAutoComplete('mainSearchFieldMobile', '#js-main-search-complete-output-mobile', 'q', 'sv', extra);
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+(function() {
+
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+
+sz.src = 'https://live.webb.uu.se/common/js/siteimprove';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);	
+
+})();	
+
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+jQuery('#menu-93274-m,#menu-93274-d,#menu-93276-m,#menu-93276-d,#menu-102348-m,#menu-102348-d').addClass('active-parent');
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="https://live.webb.uu.se/common/js/typeahead-bloodhound"></script>
+<script type="text/javascript" src="https://live.webb.uu.se/common/js/accessible-autocomplete"></script>
+<script type="text/javascript" src="https://live.webb.uu.se/common/js/uu-v2"></script>
+<section class="cookie-message is-bg-dark-grey" aria-label="Meddelande om kakor (cookies).">
+<div class="cookie-content">
+<p>
+Uppsala universitet använder kakor (cookies) för att webbplatsen ska fungera bra för dig.
+<a href="//www.uu.se/om-webbplatsen">Läs mer om kakor.</a>
+<button>OK</button>
+</p>
+</div>
+</section>
+</body>
+</html>
+
