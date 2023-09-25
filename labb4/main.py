@@ -86,7 +86,6 @@ def remove_html_code(source_code_string):
 
 if __name__ == '__main__':
     print("Running")
-    #I am testing this shit now
     #vilhelm.agdur<span class="rplcAt">@</span>math.uu.se</a>
     test = get_source_code()
     print(*remove_html_code(test), sep="\n")
