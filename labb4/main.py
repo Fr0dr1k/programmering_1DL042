@@ -89,3 +89,4 @@ if __name__ == '__main__':
     test = get_source_code()
     print(*remove_html_code(test), sep="\n")
     #print(is_valid_email("fredrik@ff2.se"))
+    #This is a test of github
