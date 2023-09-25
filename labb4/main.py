@@ -85,8 +85,10 @@ def remove_html_code(source_code_string):
 
 
 if __name__ == '__main__':
+    print("Running")
     #vilhelm.agdur<span class="rplcAt">@</span>math.uu.se</a>
     test = get_source_code()
     print(*remove_html_code(test), sep="\n")
+
     #print(is_valid_email("fredrik@ff2.se"))
     #This is a test of github
