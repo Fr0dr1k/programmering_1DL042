@@ -127,3 +127,7 @@ if __name__ == '__main__':
     #<a HREF="http://www.uu.se">Uppsala Universitet</a>
 
     print("Done runing")
+
+    #Att fixa
+    #Problem med specialtecken som start och slut på mail
+    #Fixa så att den tar upp mail adreser som ligger som länkar
