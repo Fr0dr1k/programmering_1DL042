@@ -138,13 +138,14 @@ def emails_from_url(url):
 if __name__ == '__main__':
     print("Running")
     file = open("test.txt", "r", encoding="utf8")
-    #test = file.read()
+    test = file.read()
     #find_links(test)
     #print(*get_all_emails(test, "@"), sep="\n")
     #print(get_all_emails("\\ntest@hej.se","@"))
     #print(get_all_emails(1,"@"))
     #print(get_all_emails(get_source_code("http://www.it.uu.se/katalog/bylastname"),"@"))
     #<a HREF="http://www.uu.se">Uppsala Universitet</a>
-    print(is_valid_email("fredrik@ff2.se","@"))
+    #print(is_valid_email("fredrik@ff2.se","@"))
+    print(get_all_emails(test,"@"))
 
     print("Done running")
