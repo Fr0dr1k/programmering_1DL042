@@ -11,7 +11,6 @@ def get_source_code(url):
     content = file_object.read()
     text = content.decode('utf-8')
 
-    print("Data collected")
     return text
 
 
@@ -94,9 +93,6 @@ def get_all_emails(source_code_string, at_symbol):
 
                 if is_valid_email(new_email,at_symbol):
                     all_emails.add(new_email)
-
-
-            #all_emails.update(emails)
 
         return all_emails
     except:
