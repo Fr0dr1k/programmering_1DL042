@@ -2,11 +2,11 @@ import u3
 
 def test_get_mail_from_string():
     expected_results = {"test luckass@gmail.com test ": {"luckass@gmail.com"},
-                        "fredrik@ff2.se": {"fredrik@ff2.se"},
+                        "fredrik@fred.se": {"fredrik@fred.se"},
                         "test@": set(),
-                        "mailto:fredrik@ff2.se": {"fredrik@ff2.se"},
+                        "mailto:fredrik@fred.se": {"fredrik@fred.se"},
                         "t    e££@öööö.#\n#": set(),
-                        "fredrik@ff2.aqv greger@test.se": {"greger@test.se"},
+                        "fredrik@fred.aqv greger@test.se": {"greger@test.se"},
                         "hej@test.com  @ ## £$@$ test@jag.se": {"hej@test.com", "test@jag.se"}}
 
     count = 0
