@@ -1,4 +1,4 @@
-import main as m
+import u3 as m
 
 def test_get_mail_from_string():
     expected_results = {"test luckass@gmail.com test ": {"luckass@gmail.com"},
@@ -17,4 +17,6 @@ def test_get_mail_from_string():
         if m.get_all_emails(i,"@")==expected_results[i]:
             passed += 1
     print(str(passed)+"/"+str(len(expected_results))+" tests passed")
+
+
 

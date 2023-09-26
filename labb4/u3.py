@@ -18,7 +18,9 @@ def get_source_code(url):
 def is_valid_email(email_address, at_symbol):
     #En epost är en text sträng som innehåller ett namn följt av ett @ följt av en webbadress
     #Nu så säger vi att ett namn kan vara alla typer av texter som innehåller bara bokstäver, siffror och punkter
-    #En webbadress säger vi nu är alla godkänd webbadresser så ett domännamn.toppdomän tex gmail.com
+    #En webbadress säger vi nu är alla godkänd webbadresser så ett domännamn.toppdomän tex gmail.com där
+    #domännamn får inehåla bokstäver sifror och punkt och toppdomänen är en godkänns toppdomän t ex .com eller .se
+    #Domännamnet kan inte heller ha flerla punkter i rad t ex fredrik@ff2...se är inte godtjänd
     try:
         with open("top_domains.txt", "rb") as file:
             valid_top_domains = pickle.load(file)
@@ -33,7 +35,13 @@ def is_valid_email(email_address, at_symbol):
         if "." not in email_address[1]:
             return False
 
+        if ".." in email_address[1]:
+            return False
+
         if email_address[1][email_address[1].rfind(".")+1:].upper() not in valid_top_domains:
+            return False
+
+        if len(email_address[1][:email_address[1].rfind(".")]) < 1:
             return False
 
         for i in email_address[0]:
@@ -124,20 +132,6 @@ def remove_html_code(source_code_string, at_symbol):
     return all_lines
 
 
-def find_links(source_code_string):
-    all_links = set()
-    for line in source_code_string.split("\n"):
-        line = line.replace(" ", "")
-        line = line.lower()
-        if "<ahref=" not in line:
-            continue
-
-        line = line[line.find("<ahref=")+8:line.find('\"', line.find("<ahref=")+8)]
-
-        all_links.add(line)
-    return all_links
-
-
 def emails_from_url(url):
     content = get_source_code(url)
     all_emails = get_all_emails(content,"@")
@@ -152,8 +146,9 @@ if __name__ == '__main__':
     #find_links(test)
     #print(*get_all_emails(test, "@"), sep="\n")
     #print(get_all_emails("\\ntest@hej.se","@"))
-    print(get_all_emails(1,"@"))
+    #print(get_all_emails(1,"@"))
     #print(get_all_emails(get_source_code("http://www.it.uu.se/katalog/bylastname"),"@"))
     #<a HREF="http://www.uu.se">Uppsala Universitet</a>
+    print(is_valid_email("fredrik@ff2.se","@"))
 
     print("Done running")
