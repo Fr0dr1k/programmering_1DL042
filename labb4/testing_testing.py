@@ -1,5 +1,6 @@
 import u3
 
+
 def test_get_mail_from_string():
     expected_results = {"test luckass@gmail.com test ": {"luckass@gmail.com"},
                         "fredrik@fred.se": {"fredrik@fred.se"},
