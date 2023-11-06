@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        final double INIT_SICK_PROB = 0.2, GET_WELL_PROB=0.2, DIE_PROB=0.002,INFECT_PROB=0.02,
+        /***final double INIT_SICK_PROB = 0.2, GET_WELL_PROB=0.2, DIE_PROB=0.002,INFECT_PROB=0.02,
                 RANGE = 100, VACCINATION_RATE = 0.5, VACCINATION_EFFICIENTS = 0.8;
         final int DAYS_IMMUNE = 1000;
-        Village fistVillage = new Village(1000,false, INIT_SICK_PROB, GET_WELL_PROB,
+        Village firstVillage = new Village(1000,false, INIT_SICK_PROB, GET_WELL_PROB,
                 DIE_PROB,INFECT_PROB,DAYS_IMMUNE, RANGE, VACCINATION_RATE, VACCINATION_EFFICIENTS,true,true);
-        /***System.out.println("Whit vaccination");
+        System.out.println("Whit vaccination");
         fistVillage.runSimulation();
         Village secondVillage = new Village(1000,false, INIT_SICK_PROB, GET_WELL_PROB,
                 DIE_PROB,INFECT_PROB, RANGE, VACCINATION_RATE, VACCINATION_EFFICIENTS);
@@ -26,10 +26,10 @@ public class Main {
         System.out.println("Total days passed: "+daysPassed);
         System.out.println("Total deaths: "+fistVillage.countDead());
         System.out.println("Immune people at the end: "+fistVillage.countImmunePeople());*/
-        Village sverige = new Village(1000,false,0,0.2,0.002,0.02,
-                1000,100,1,1,true,true);
+        Village sverige = new Village(1000,true,0,0.2,0.002,0.02,
+                1000,113,0.8,0.8,true,true);
         Village norge = new Village(1000,false,0,0.2,0.002,0.02,
-                1000,100,1,1,true,false);
+                1000,80,1,1,true,true);
         System.out.println("Sverige");
         sverige.runSimulation(true);
         System.out.println("Norge");
