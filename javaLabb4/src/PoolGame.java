@@ -7,7 +7,8 @@ import java.awt.event.MouseListener;
 
 public class PoolGame extends JPanel implements ActionListener, MouseListener {
 
-    private final int WINDOW_WIDTH = 800, WINDOW_HEIGHT = 500;
+    private final int WINDOW_WIDTH = 800,
+            WINDOW_HEIGHT = 500;
     Table poolTable;
 
     public static void main(String[] args) {
@@ -28,6 +29,14 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener {
     public PoolGame(){
         setPreferredSize(new Dimension(WINDOW_WIDTH,WINDOW_HEIGHT));
         poolTable = new Table(WINDOW_HEIGHT,WINDOW_WIDTH);
+
+    }
+
+    @Override
+    public void paintComponent(Graphics graphics) {
+        super.paintComponent(graphics);
+        Graphics2D graphics2D = (Graphics2D) graphics;
+        poolTable.draw(graphics2D);
 
     }
 

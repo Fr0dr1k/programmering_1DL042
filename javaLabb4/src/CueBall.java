@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class CueBall extends Ball{
-    public CueBall(int xPos, int yPos, int radius, Color color) {
-        super(xPos, yPos, radius, color);
+    public CueBall(Coord pos, int radius, Color color) {
+        super(pos, radius, color);
     }
 
     void shot(int direction, int speed){
@@ -10,6 +10,12 @@ public class CueBall extends Ball{
     }
 
     void aim(){
+
+    }
+
+    @Override
+    void draw(Graphics2D graphics2D){
+        super.draw(graphics2D);
 
     }
 }
