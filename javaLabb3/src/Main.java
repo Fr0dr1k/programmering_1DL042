@@ -10,24 +10,27 @@ public class Main {
     public static void main(String[] args) {
         JFrame myFrame = new JFrame("My Clock");
         myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Animator anim = new Animator();
-        final int WINDOW_START_SIZE = 500;
-        anim.setPreferredSize(new Dimension(WINDOW_START_SIZE,WINDOW_START_SIZE));
-        myFrame.addKeyListener(anim);
-        myFrame.add(anim);
+        Clock myClock = new Clock();
+        final int WINDOW_SIZE = 500;
+        myClock.setPreferredSize(new Dimension(WINDOW_SIZE,WINDOW_SIZE));
+        myFrame.addMouseListener(myClock);
+        myFrame.add(myClock);
         myFrame.pack();
         myFrame.setLocationRelativeTo(null);
         myFrame.setResizable(false);
         myFrame.setVisible(true);
         final int TIMER_DELAY = 10;
-        Timer timer = new Timer(TIMER_DELAY, anim);
+        Timer timer = new Timer(TIMER_DELAY, myClock);
         timer.start();
     }
 }
 
-class Animator extends JPanel implements ActionListener, KeyListener{
-    boolean funnyTime = false;
-    int funnyTimer = 10;
+class Clock extends JPanel implements ActionListener, MouseListener{
+    final int HOUR_STEPS = 12,
+            SECOND_AND_MINUTE_STEPS = 60;
+    private double hours = LocalDateTime.now().getHour() + LocalDateTime.now().getMinute()/(double)(SECOND_AND_MINUTE_STEPS),
+            minutes = LocalDateTime.now().getMinute()+LocalDateTime.now().getSecond()/(double)(SECOND_AND_MINUTE_STEPS);
+
     double timeToAngle(double time,double stepsOnClock){
         final double ONE_LAP = 2*Math.PI;
         return (time*ONE_LAP)/stepsOnClock;
@@ -71,17 +74,16 @@ class Animator extends JPanel implements ActionListener, KeyListener{
     @Override
     public void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
-        Graphics2D graphics2D = (Graphics2D) graphics;
 
-        final int CLOCK_FACE_SIZE = 476,
-                CLOCK_FACE_X = 12,
-                CLOCK_FACE_Y = 12,
-                CENTER = 250;
-        final Color CLOCK_FACE_COLOR = Color.GRAY,
-                HAND_COLOR = Color.BLACK,
-                SECOND_COLOR = Color.RED;
-        graphics.setColor(CLOCK_FACE_COLOR);
-        graphics.fillOval(CLOCK_FACE_X,CLOCK_FACE_Y,CLOCK_FACE_SIZE,CLOCK_FACE_SIZE);
+        drawBackground(graphics);
+        drawDate(graphics);
+        drawAllMarkers(graphics);
+        drawClockHands(graphics);
+
+    }
+
+    void drawDate(Graphics graphics){
+        Graphics2D graphics2D = (Graphics2D) graphics;
 
         final int DATE_X = 155,
                 DATE_Y = 330,
@@ -90,14 +92,15 @@ class Animator extends JPanel implements ActionListener, KeyListener{
                 DATE_CORNER_ARC = 30,
                 TEXT_SIZE = 20,
                 TEXT_X = 175,
-                TEXT_Y = 360,
-                DATE_BORDER_THICKNESS = 2;
+                TEXT_Y = 360;
+
         final Color DATE_COLOR = Color.LIGHT_GRAY,
-                TEXT_COLOR = Color.BLACK;
+                TEXT_COLOR = Color.BLACK,
+                BORDER_COLOR = Color.BLACK;
+
         graphics.setColor(DATE_COLOR);
         graphics2D.fillRoundRect(DATE_X,DATE_Y,DATE_WIDTH,DATE_HEIGHT,DATE_CORNER_ARC,DATE_CORNER_ARC);
-        graphics2D.setColor(HAND_COLOR);
-        graphics2D.setStroke(new BasicStroke(DATE_BORDER_THICKNESS));
+        graphics2D.setColor(BORDER_COLOR);
         graphics2D.drawRoundRect(DATE_X,DATE_Y,DATE_WIDTH,DATE_HEIGHT,DATE_CORNER_ARC,DATE_CORNER_ARC);
 
         DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG);
@@ -107,6 +110,25 @@ class Animator extends JPanel implements ActionListener, KeyListener{
 
         graphics.drawString(""+LocalDate.now().format(formatter),TEXT_X,TEXT_Y);
 
+    }
+    void drawBackground(Graphics graphics){
+        Graphics2D graphics2D = (Graphics2D) graphics;
+
+        final int CLOCK_FACE_SIZE = 476,
+                CLOCK_FACE_X = 12,
+                CLOCK_FACE_Y = 12,
+                BORDER_THICKNESS = 2;
+        final Color CLOCK_FACE_COLOR = Color.GRAY;
+        graphics.setColor(CLOCK_FACE_COLOR);
+        graphics.fillOval(CLOCK_FACE_X,CLOCK_FACE_Y,CLOCK_FACE_SIZE,CLOCK_FACE_SIZE);
+
+        graphics.setColor(Color.BLACK);
+        graphics2D.setStroke(new BasicStroke(BORDER_THICKNESS));
+        graphics2D.drawOval(CLOCK_FACE_X, CLOCK_FACE_Y, CLOCK_FACE_SIZE,CLOCK_FACE_SIZE);
+    }
+
+    void drawAllMarkers(Graphics graphics){
+        Graphics2D graphics2D = (Graphics2D) graphics;
         final double ONE_LAP_IN_PI = 2*Math.PI,
                 STEP_HOUR_MARKER = Math.PI/6,
                 STEP_MINUTE_MARKER = Math.PI/30;
@@ -130,55 +152,96 @@ class Animator extends JPanel implements ActionListener, KeyListener{
         for(double v = 0; v<=ONE_LAP_IN_PI;v+=STEP_MINUTE_MARKER){
             drawMarker(v,MINUTE_MARKER_WIDTH,MINUTE_MARKER_LENGTH,MINUTE_MARKER_DISTANCE_FROM_CENTER,graphics2D);
         }
+    }
 
-
-        final int HOUR_HAND_WIDTH = 10,
+    void drawClockHands(Graphics graphics){
+        Graphics2D graphics2D = (Graphics2D) graphics;
+        final int CENTER = 250,
+                HOUR_HAND_WIDTH = 10,
                 HOUR_HAND_LENGTH = 100,
                 MINUTE_HAND_WIDTH = 5,
                 MINUTE_HAND_LENGTH = 150,
                 SECOND_HAND_WIDTH = 3,
                 SECOND_HAND_LENGTH = 200,
-                HOUR_STEPS = 12,
-                SECOND_AND_MINUTE_STEPS = 60,
                 CENTER_CAP_WIDTH = 18;
-        double hours = LocalDateTime.now().getHour() + LocalDateTime.now().getMinute()/(double)(SECOND_AND_MINUTE_STEPS),
-                minutes = LocalDateTime.now().getMinute()+LocalDateTime.now().getSecond()/(double)(SECOND_AND_MINUTE_STEPS);
 
-        if(funnyTime){
+        final Color HAND_COLOR = Color.BLACK,
+                SECOND_COLOR = Color.RED;;
 
-        }
-        else {
-            drawHand(HOUR_HAND_WIDTH, HOUR_HAND_LENGTH, timeToAngle(hours, HOUR_STEPS), HAND_COLOR, graphics2D);
-            drawHand(MINUTE_HAND_WIDTH, MINUTE_HAND_LENGTH, timeToAngle(minutes, SECOND_AND_MINUTE_STEPS), HAND_COLOR, graphics2D);
-            drawHand(SECOND_HAND_WIDTH, SECOND_HAND_LENGTH, timeToAngle(LocalDateTime.now().getSecond(), SECOND_AND_MINUTE_STEPS),
-                    SECOND_COLOR, graphics2D);
-            graphics.setColor(HAND_COLOR);
-            graphics.fillOval(CENTER - CENTER_CAP_WIDTH / 2, CENTER - CENTER_CAP_WIDTH / 2, CENTER_CAP_WIDTH, CENTER_CAP_WIDTH);
-        }
+
+        drawHand(HOUR_HAND_WIDTH, HOUR_HAND_LENGTH, timeToAngle(hours, HOUR_STEPS)+spinningAngeHHand, HAND_COLOR,
+                graphics2D);
+
+        drawHand(MINUTE_HAND_WIDTH, MINUTE_HAND_LENGTH, timeToAngle(minutes, SECOND_AND_MINUTE_STEPS)+spinningAngeMHand,
+                HAND_COLOR, graphics2D);
+
+        drawHand(SECOND_HAND_WIDTH, SECOND_HAND_LENGTH, timeToAngle(LocalDateTime.now().getSecond(),
+                SECOND_AND_MINUTE_STEPS)+spinningAngeSHand, SECOND_COLOR, graphics2D);
+
+        graphics.setColor(HAND_COLOR);
+        graphics.fillOval(CENTER - CENTER_CAP_WIDTH / 2, CENTER - CENTER_CAP_WIDTH / 2, CENTER_CAP_WIDTH, CENTER_CAP_WIDTH);
+
     }
 
 
+    private double spinningAngeSHand = 0, spinningAngeMHand = 0, spinningAngeHHand = 0;
+
+    void startSpin(){
+        final double hourTotalRotation = -4*Math.PI,
+                minuteTotalRotation = 6*Math.PI,
+                secondTotalRotation = -6*Math.PI;
+
+        spinningAngeHHand = hourTotalRotation;
+        spinningAngeMHand = minuteTotalRotation;
+        spinningAngeSHand = secondTotalRotation;
+    }
+
+    void updateSpin(){
+        final double HOUR_SPINNING_SPEED = Math.PI/20,
+                MINUTE_SPINNING_SPEED = -Math.PI/7,
+                SECOND_SPINNING_SPEED = Math.PI/12;
+        if(spinningAngeHHand<0) {
+            spinningAngeHHand += HOUR_SPINNING_SPEED;
+        }
+        if(spinningAngeMHand>0){
+            spinningAngeMHand += MINUTE_SPINNING_SPEED;
+        }
+        if(spinningAngeSHand<0) {
+            spinningAngeSHand += SECOND_SPINNING_SPEED;
+        }
+
+    }
+
     @Override
     public void actionPerformed (ActionEvent e) {
-
+        hours = LocalDateTime.now().getHour() + LocalDateTime.now().getMinute() / (double) (SECOND_AND_MINUTE_STEPS);
+        minutes = LocalDateTime.now().getMinute() + LocalDateTime.now().getSecond() / (double) (SECOND_AND_MINUTE_STEPS);
+        updateSpin();
         repaint();
     }
 
     @Override
-    public void keyTyped(KeyEvent e) {
+    public void mouseClicked(MouseEvent e) {
+        startSpin();
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
 
     }
 
     @Override
-    public void keyPressed(KeyEvent e) {
-        int key = e.getKeyCode();
-        if(key==KeyEvent.VK_R){
-            System.out.println("Random");
-        }
+    public void mouseReleased(MouseEvent e) {
+
     }
 
     @Override
-    public void keyReleased(KeyEvent e) {
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
 
     }
 }
