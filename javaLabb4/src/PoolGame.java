@@ -1,32 +1,37 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.*;
 
-public class PoolGame extends JPanel implements ActionListener, MouseListener {
+/***
+ * Att göra
+ * -Fixa så att man inte kan skjuta bollen bakåt
+ *
+ *
+ * */
 
-    private final int WINDOW_WIDTH = 800,
-            WINDOW_HEIGHT = 500;
+public class PoolGame extends JPanel implements ActionListener, MouseListener, MouseMotionListener {
+
+    public static final int WINDOW_WIDTH    = 800,
+                        WINDOW_HEIGHT       = 500,
+                        UPDATE_FREQUENCY    = 100;
     Table poolTable;
 
     public static void main(String[] args) {
         JFrame myFrame = new JFrame("Pool Game");
         myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         PoolGame myPoolGame = new PoolGame();
-        myFrame.addMouseListener(myPoolGame);
         myFrame.add(myPoolGame);
         myFrame.pack();
         myFrame.setLocationRelativeTo(null);
         myFrame.setResizable(true);
         myFrame.setVisible(true);
-        final int TIMER_DELAY = 10;
-        Timer timer = new Timer(TIMER_DELAY, myPoolGame);
+        Timer timer = new Timer(1000/UPDATE_FREQUENCY, myPoolGame);
         timer.start();
     }
 
     public PoolGame(){
+        addMouseListener(this);
+        addMouseMotionListener(this);
         setPreferredSize(new Dimension(WINDOW_WIDTH,WINDOW_HEIGHT));
         poolTable = new Table(WINDOW_HEIGHT,WINDOW_WIDTH);
 
@@ -42,31 +47,42 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        poolTable.update();
 
+        repaint();
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
-
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-
+        poolTable.cue.startAiming(new Coord(e));
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
+        poolTable.cue.stopAiming(new Coord(e));
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        System.out.println("test");
+        poolTable.cue.setMouseInGame(true);
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
+        poolTable.cue.setMouseInGame(false);
+    }
 
+    @Override
+    public void mouseDragged(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
+        poolTable.cue.updateMouse(new Coord(e));
     }
 }

@@ -22,6 +22,8 @@ public class Coord {
     }
 
     Coord norm() {                              // norm: a normalised vector at the same direction
+        if(magnitude()==0)
+            return new Coord(x,y);
         return new Coord(x / magnitude(), y / magnitude());
     }
 
@@ -35,8 +37,21 @@ public class Coord {
         y -= c.y;
     }
 
+    void shorten(double factor){
+        x *= (1-factor);
+        y *= (1-factor);
+    }
+
     static double scal(Coord a, Coord b) {      // scalar product
         return a.x * b.x + a.y * b.y;
+    }
+
+    static double scalProj(Coord a, Coord b){
+        return scal(a,b.norm());
+    }
+
+    static Coord proj(Coord a, Coord b){
+        return mul(scal(a,b.norm()),b.norm());
     }
 
     static Coord sub(Coord a, Coord b) {
@@ -46,6 +61,8 @@ public class Coord {
     static Coord mul(double k, Coord c) {       // multiplication by a constant
         return new Coord(k * c.x, k * c.y);
     }
+
+
 
     static double distance(Coord a, Coord b) {
         return Coord.sub(a, b).magnitude();

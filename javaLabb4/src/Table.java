@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.ArrayList;
 
 public class Table {
 
@@ -6,9 +7,10 @@ public class Table {
     private final int TABLE_HEIGHT,
             TABLE_WIDTH,
             BALL_RADIUS = 15;
-    private Ball[] balls = new Ball[15];
-    private CueBall cueBall;
+    private ArrayList<Ball> balls = new ArrayList<>();
+    private Ball cueBall;
     private final Coord CUE_BALL_START_POS;
+    Cue cue;
 
     public Table(int TABLE_HEIGHT, int TABLE_WIDTH) {
         this.TABLE_HEIGHT = TABLE_HEIGHT;
@@ -16,9 +18,14 @@ public class Table {
         CUE_BALL_START_POS = new Coord(TABLE_WIDTH/4,TABLE_HEIGHT/2-BALL_RADIUS);
 
         setBalls();
-        cueBall = new CueBall(CUE_BALL_START_POS,BALL_RADIUS,Color.WHITE);
-        System.out.println(CUE_BALL_START_POS.y);
+        cueBall = new Ball(CUE_BALL_START_POS,BALL_RADIUS,Color.WHITE);
+        cue = new Cue(cueBall);
 
+    }
+
+    void update(){
+        cueBall.move(this);
+        //cueBall.setAiming(noBlasMoving());
     }
 
     void setBalls(){
@@ -33,6 +40,10 @@ public class Table {
         graphics2D.setColor(BACKGROUND_COLOR);
         graphics2D.fillRect(0,0,TABLE_WIDTH,TABLE_HEIGHT);
         cueBall.draw(graphics2D);
+
+        if(noBlasMoving()){
+            cue.draw(graphics2D);
+        }
     }
 
     public int getTABLE_HEIGHT() {
@@ -41,5 +52,18 @@ public class Table {
 
     public int getTABLE_WIDTH() {
         return TABLE_WIDTH;
+    }
+
+    boolean noBlasMoving(){
+        for (Ball ball : balls) {
+            if (ball.isMoving()) {
+                return true;
+            }
+        }
+        return !cueBall.isMoving();
+    }
+
+    public ArrayList<Ball> getBalls() {
+        return balls;
     }
 }
