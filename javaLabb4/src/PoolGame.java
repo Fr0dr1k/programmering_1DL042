@@ -1,20 +1,38 @@
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.CompoundBorder;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.image.BufferedImage;
 
 /***
  * Att göra
- * -Fixa så att man inte kan skjuta bollen bakåt
+ *
+ *
+ * !!!Fixa bugg så att det inte krashar ibland när man sänker en boll, oklart värför det händer, outOfBoud
+ * Om man missar blir det nästa spelares tur
+ * Om man inte träffar något ska motståndaren få flytta på bollen
+ * Gör så att man förlorar om man skjuter ner den svarta
+ * Gör så att det vissas en vinnare i slutet
+ * Lägg in power bar
  *
  *
  * */
 
 public class PoolGame extends JPanel implements ActionListener, MouseListener, MouseMotionListener {
 
-    public static final int WINDOW_WIDTH    = 800,
-                        WINDOW_HEIGHT       = 500,
-                        UPDATE_FREQUENCY    = 100;
+    public static final int WINDOW_WIDTH    = 900,
+                        WINDOW_HEIGHT       = 800,
+                        UPDATE_FREQUENCY    = 100,
+                        SCORE_BORD_HEIGHT   = 200,
+                        GAME_BORDER         = 20,
+                        GAME_HEIGHT = WINDOW_HEIGHT-SCORE_BORD_HEIGHT-2*GAME_BORDER,
+                        GAME_WIDTH = WINDOW_WIDTH-2*GAME_BORDER;
     Table poolTable;
+    Player[] players;
+    JButton resetButton;
 
     public static void main(String[] args) {
         JFrame myFrame = new JFrame("Pool Game");
@@ -33,16 +51,83 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
         addMouseListener(this);
         addMouseMotionListener(this);
         setPreferredSize(new Dimension(WINDOW_WIDTH,WINDOW_HEIGHT));
-        poolTable = new Table(WINDOW_HEIGHT,WINDOW_WIDTH);
+        addPlayers();
+        poolTable = new Table(GAME_HEIGHT,GAME_WIDTH, new Color(53, 95, 3),players);
+        addResetButton(this);
 
+    }
+
+    void addResetButton(JPanel myPanel){
+        resetButton = new JButton("Reset ");
+        final int buttonX       = 700,
+                buttonY         = 670,
+                buttonWidth     = 150,
+                buttonHeight    = 80;
+        resetButton.setBounds(buttonX,buttonY,buttonWidth,buttonHeight);
+        resetButton.setFont(new Font("Arial",Font.BOLD,20));
+
+        resetButton.setBackground(Color.WHITE);
+        Border line = new LineBorder(Color.BLACK);
+        resetButton.setBorder(line);
+
+        this.setLayout(null);
+        this.add(resetButton);
+        resetButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                poolTable.resetGame();
+            }
+        });
+
+    }
+
+    void addPlayers(){
+        players = new Player[2];
+        players[0] = new Player("Player 1",1,Color.RED);
+        players[1] = new Player("Player 2",2,Color.BLUE);
     }
 
     @Override
     public void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
         Graphics2D graphics2D = (Graphics2D) graphics;
-        poolTable.draw(graphics2D);
+        drawGame(graphics2D);
+        drawBorder(graphics);
+        drawScore(graphics);
+        drawPlayers(graphics2D);
+    }
 
+    void drawBorder(Graphics graphics){
+        graphics.setColor(new Color(31, 84, 5));
+        graphics.fillRect(0,0,WINDOW_WIDTH,GAME_BORDER);
+        graphics.fillRect(0,0,GAME_BORDER,GAME_HEIGHT+2*GAME_BORDER);
+        graphics.fillRect(0,GAME_HEIGHT+GAME_BORDER,WINDOW_WIDTH,GAME_BORDER);
+        graphics.fillRect(GAME_WIDTH+GAME_BORDER,0,GAME_BORDER,GAME_HEIGHT+GAME_BORDER);
+    }
+
+    void drawGame(Graphics2D graphics2D){
+        graphics2D.translate(GAME_BORDER,GAME_BORDER);
+        poolTable.draw(graphics2D);
+        graphics2D.translate(-GAME_BORDER,-GAME_BORDER);
+    }
+
+    void drawScore(Graphics graphics){
+        graphics.setColor(Color.LIGHT_GRAY);
+        graphics.fillRect(0,GAME_HEIGHT+2*GAME_BORDER,WINDOW_WIDTH,WINDOW_HEIGHT-2*GAME_BORDER-GAME_HEIGHT);
+    }
+
+    void drawPlayers(Graphics2D graphics2D){
+        final int PLAYER_1_X    = 50,
+                PLAYER_1_Y      = 670,
+                PLAYER_2_X      = 500,
+                PLAYER_2_Y      = 670,
+                PLAYER_TURN_X   = 270,
+                PLAYER_TURN_Y   = 670;
+        players[0].draw(PLAYER_1_X,PLAYER_1_Y,graphics2D);
+        players[1].draw(PLAYER_2_X,PLAYER_2_Y,graphics2D);
+        graphics2D.setFont(new Font("Arial",Font.BOLD,30));
+        graphics2D.setColor(players[poolTable.playerTurn].getColor());
+        graphics2D.drawString(players[poolTable.playerTurn].getName()+" turn",PLAYER_TURN_X,PLAYER_TURN_Y);
     }
 
     @Override
@@ -54,26 +139,33 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
 
     @Override
     public void mouseClicked(MouseEvent e) {
+        Coord mosePos = new Coord(e);
+        poolTable.getCueBall().placeCueBall(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        poolTable.cue.startAiming(new Coord(e));
+        if(poolTable.getCueBall() != null) {
+            Coord mosePos = new Coord(e);
+            poolTable.getCueBall().startAiming(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+        }
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        poolTable.cue.stopAiming(new Coord(e));
+        if(poolTable.getCueBall() != null) {
+            Coord mosePos = new Coord(e);
+            poolTable.getCueBall().stopAiming(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+        }
+
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        poolTable.cue.setMouseInGame(true);
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        poolTable.cue.setMouseInGame(false);
     }
 
     @Override
@@ -83,6 +175,9 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        poolTable.cue.updateMouse(new Coord(e));
+        if(poolTable.getCueBall() != null) {
+            Coord mosePos = new Coord(e);
+            poolTable.getCueBall().updateMouse(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+        }
     }
 }
