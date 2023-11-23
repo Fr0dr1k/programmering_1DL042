@@ -12,7 +12,8 @@ public class Table {
     private Hole[] holes = new Hole[6];
     private Player[] players;
     int playerTurn;
-    private boolean colorSet = false;
+    private boolean colorSet = false, gameEnded = false, ballFouled = false;
+    private Player vinner;
 
     public Table(int TABLE_HEIGHT, int TABLE_WIDTH, Color BACKGROUND_COLOR, Player[] players) {
         this.TABLE_HEIGHT = TABLE_HEIGHT;
@@ -47,11 +48,41 @@ public class Table {
         for (Player player:players) {
             player.resetScore();
         }
+        gameEnded = false;
     }
 
     void addCueBall(){
         cueBall = new CueBall(new Coord(CUE_BALL_START_POS.x,CUE_BALL_START_POS.y),BALL_RADIUS,this);
         //cue = new Cue(this);
+    }
+
+    private ArrayList<Ball> ballsPreShot = new ArrayList<>();
+    private boolean cueBallShot = false;
+    void startShot(){
+        cueBallShot = true;
+        ballsPreShot.clear();
+        for(Ball ball:balls){
+            ballsPreShot.add(ball.copy());
+        }
+    }
+
+    void endShot(){
+        cueBallShot = false;
+        if(balls.size()== ballsPreShot.size()){
+            boolean noBallsMoved = true;
+            for(int i=0;i<balls.size();i++){
+                if(balls.get(i).pos.x!= ballsPreShot.get(i).pos.x||balls.get(i).pos.y!= ballsPreShot.get(i).pos.y){
+                    noBallsMoved = false;
+                    break;
+                }
+            }
+            if(noBallsMoved){
+                ballFouled = true;
+                //Körs även när man skjuter ner den vita i hålet utan att träffa en annan boll
+                return;
+            }
+            nextTurn();
+        }
     }
 
 
@@ -65,6 +96,12 @@ public class Table {
             }
         }
         scoreBall();
+        if(cueBallShot&&noBlasMoving()){
+            endShot();
+        }
+        if(ballFouled){
+            foul();
+        }
     }
 
     void nextTurn(){
@@ -100,38 +137,51 @@ public class Table {
         }
     }
 
+    void foul(){
+        nextTurn();
+        cueBall.moveByHand();
+        ballFouled = false;
+    }
+
     void scoreBall(){
         for(Hole hole:holes){
             if(hole.isHit(cueBall)&&cueBall.isMoving()){
+                ballFouled = true;
                 cueBall.stop();
-                cueBall.moveByHand();
-                nextTurn();
+                break;
             }
         }
-
-        for(int ballNr = 0;ballNr<balls.size();ballNr++){
+        ArrayList<Ball> ballsToRemove = new ArrayList<>();
+        for(Ball ball:balls){
             for(Hole hole:holes){
-                if(hole.isHit(balls.get(ballNr))){
-                    if(balls.get(ballNr).getBallType()==-1){
-                        //Spelaren som sköt ska förlora
+                if(hole.isHit(ball)){ //it fucked upp bro
+                    if(ball.getBallType()==-1){
+                        nextTurn();
+                        vinner(players[playerTurn]);
                     }
                     else{
                         if(colorSet){
-                            if(balls.get(ballNr).getBallType()==players[playerTurn].getBallType()){
+                            if(ball.getBallType()==players[playerTurn].getBallType()){
                                 players[playerTurn].increaseScore(1);
                             }
                             else{
                                 nextTurn();
+                                players[playerTurn].increaseScore(1);
                             }
                         }
                         else{
-                            setBallColor(balls.get(ballNr));
+                            setBallColor(ball);
                             players[playerTurn].increaseScore(1);
                         }
                     }
-                    balls.remove(ballNr);
+                    //balls.remove(ball);//Krashar iblan ingen aning om varför
+                    ballsToRemove.add(ball);
                 }
             }
+        }
+        balls.removeAll(ballsToRemove);
+        if(colorSet) {
+            checkForVinner();
         }
     }
 
@@ -143,7 +193,6 @@ public class Table {
                 topBackY            = TABLE_HEIGHT/2-5*(BALL_RADIUS)-2*spaceBetweenBalls;
         Coord topBall = new Coord(backX,topBackY);
         while (ballsPerRow>0){
-
             for(int i = 0;i<ballsPerRow;i++){
                 int ballType;
                 Color ballColor;
@@ -168,6 +217,32 @@ public class Table {
         }
     }
 
+    void vinner(Player vinner){
+        this.vinner = vinner;
+        gameEnded = true;
+    }
+
+    void checkForVinner(){
+        int ballsPlayer1Left = 0, ballsPlayer2Left = 0;
+        for(Ball ball:balls){
+            if(ball.getBallType()==players[0].getBallType()){
+                ballsPlayer1Left++;
+            }
+            else if(ball.getBallType()==players[1].getBallType()){
+                ballsPlayer2Left++;
+            }
+        }
+        if(ballsPlayer1Left==0&&ballsPlayer2Left>0){
+            vinner(players[0]);
+        }
+        else if(ballsPlayer2Left==0&&ballsPlayer1Left>0){
+            vinner(players[1]);
+        }
+        else if(ballsPlayer1Left==0&&ballsPlayer2Left==0){
+            vinner(new Player("a draw",-1,Color.BLACK));
+        }
+    }
+
     void draw(Graphics2D graphics2D){
         graphics2D.setColor(BACKGROUND_COLOR);
         graphics2D.fillRect(0,0,TABLE_WIDTH,TABLE_HEIGHT);
@@ -184,6 +259,18 @@ public class Table {
         if(cueBall != null) {
             cueBall.draw(graphics2D);
         }
+        if(gameEnded){
+            drawEndScreen(graphics2D);
+        }
+    }
+
+    void drawEndScreen(Graphics2D graphics2D){
+        graphics2D.setColor(vinner.getColor());
+        final int X_POS     = 180,
+                Y_POS       = 250,
+                TEXT_SIZE   = 50;
+        graphics2D.setFont(new Font("Arial",Font.BOLD,TEXT_SIZE));
+        graphics2D.drawString("The vinner is "+vinner.getName(),X_POS,Y_POS);
     }
 
     public int getTABLE_HEIGHT() {

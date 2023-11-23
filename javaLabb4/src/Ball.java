@@ -26,8 +26,8 @@ public class Ball{
         double firsDistance = Coord.distance(ball.pos,this.pos);
         boolean isOverlapping = firsDistance<=2*RADIUS;
 
-        Ball copyA = this.getACopy(),
-                copyB = ball.getACopy();
+        Ball copyA = this.copy(),
+                copyB = ball.copy();
 
         copyA.pos.increase(copyA.vel);
         copyB.pos.increase(copyB.vel);
@@ -109,7 +109,7 @@ public class Ball{
         return new Coord(pos.x+RADIUS,pos.y+RADIUS);
     }
 
-    Ball getACopy(){
+    Ball copy(){
         Ball copy = new Ball(new Coord(pos.x,pos.y),RADIUS);
         copy.vel = new Coord(this.vel.x,this.vel.y);
         return copy;

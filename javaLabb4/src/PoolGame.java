@@ -11,7 +11,6 @@ import java.awt.image.BufferedImage;
  * Att göra
  *
  *
- * !!!Fixa bugg så att det inte krashar ibland när man sänker en boll, oklart värför det händer, outOfBoud
  * Om man missar blir det nästa spelares tur
  * Om man inte träffar något ska motståndaren få flytta på bollen
  * Gör så att man förlorar om man skjuter ner den svarta
@@ -33,6 +32,7 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
     Table poolTable;
     Player[] players;
     JButton resetButton;
+    Timer timer;
 
     public static void main(String[] args) {
         JFrame myFrame = new JFrame("Pool Game");
@@ -43,8 +43,6 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
         myFrame.setLocationRelativeTo(null);
         myFrame.setResizable(true);
         myFrame.setVisible(true);
-        Timer timer = new Timer(1000/UPDATE_FREQUENCY, myPoolGame);
-        timer.start();
     }
 
     public PoolGame(){
@@ -54,7 +52,8 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
         addPlayers();
         poolTable = new Table(GAME_HEIGHT,GAME_WIDTH, new Color(53, 95, 3),players);
         addResetButton(this);
-
+        timer = new Timer(1000/UPDATE_FREQUENCY, this);
+        timer.start();
     }
 
     void addResetButton(JPanel myPanel){
@@ -170,7 +169,10 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
 
     @Override
     public void mouseDragged(MouseEvent e) {
-
+        if(poolTable.getCueBall() != null) {
+            Coord mosePos = new Coord(e);
+            poolTable.getCueBall().updatePowerBar(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+        }
     }
 
     @Override
