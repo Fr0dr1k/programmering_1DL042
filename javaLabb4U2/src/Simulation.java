@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Main extends JPanel implements ActionListener, MouseListener, MouseMotionListener {
+public class Simulation extends JPanel implements ActionListener, MouseListener, MouseMotionListener {
 
     public static final int WINDOW_WIDTH    = 800,
                         WINDOW_HEIGHT       = 500,
@@ -16,7 +16,7 @@ public class Main extends JPanel implements ActionListener, MouseListener, Mouse
     public static void main(String[] args) {
         JFrame myFrame = new JFrame("Simulation");
         myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Main mySimulation = new Main();
+        Simulation mySimulation = new Simulation();
         myFrame.add(mySimulation);
 
         myFrame.pack();
@@ -25,18 +25,18 @@ public class Main extends JPanel implements ActionListener, MouseListener, Mouse
         myFrame.setVisible(true);
     }
 
-    public Main(){
+    public Simulation(){
         addMouseListener(this);
         addMouseMotionListener(this);
         setPreferredSize(new Dimension(WINDOW_WIDTH+SIM_WIDTH,WINDOW_HEIGHT));
         simulationOfSicknes = new Table(WINDOW_HEIGHT,WINDOW_WIDTH, Color.LIGHT_GRAY);
 
         pauseButton = new JButton("Pause");
-        final int buttonX       = 850,
-                buttonY         = 100,
-                buttonWidth     = 100,
-                buttonHeight    = 50;
-        pauseButton.setBounds(buttonX,buttonY,buttonWidth,buttonHeight);
+        final int BUTTON_X       = 850,
+                BUTTON_Y         = 100,
+                BUTTON_WIDTH     = 100,
+                BUTTON_HEIGHT    = 50;
+        pauseButton.setBounds(BUTTON_X,BUTTON_Y,BUTTON_WIDTH,BUTTON_HEIGHT);
         this.setLayout(null);
         this.add(pauseButton);
         pauseButton.addActionListener(new ActionListener() {

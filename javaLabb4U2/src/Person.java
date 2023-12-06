@@ -4,7 +4,7 @@ public class Person {
     Coord pos, vel;
     final int RADIUS;
     boolean isSick, isAlive = true;
-    final double riskOfInfection = 0.5,riskOfDeath = 0.2/100.0,secondsToRecover = 5;
+    final double riskOfInfection = 0.5,riskOfDeath = 0.2/100.0, SECONDS_TO_RECOVERY = 5;
     double secondsLeftToRecovery = 5;
 
 
@@ -51,7 +51,7 @@ public class Person {
 
     void getBetter(){
         if(secondsLeftToRecovery>0){
-            secondsLeftToRecovery-=1.0/Main.UPDATE_FREQUENCY;
+            secondsLeftToRecovery-=1.0/ Simulation.UPDATE_FREQUENCY;
         }
         else{
             isSick = false;
@@ -87,7 +87,7 @@ public class Person {
         }
     }
 
-    Coord calculateCollision(Person collidingBall){
+    void calculateCollision(Person collidingBall){
         //Ändra variabelnamn så att parow inte får pykos
         Person a = this;
         Person b = collidingBall;
@@ -95,13 +95,12 @@ public class Person {
         double j = Coord.scal(b.vel,d) - Coord.scal(a.vel,d);
         a.vel.increase(Coord.mul(j,d));
         b.vel.decrease(Coord.mul(j,d));
-        return null;
     }
 
     void getInfected(){
         if(Math.random()<riskOfInfection){
             isSick = true;
-            secondsLeftToRecovery = secondsToRecover;
+            secondsLeftToRecovery = SECONDS_TO_RECOVERY;
         }
     }
 
@@ -122,7 +121,7 @@ public class Person {
             graphics2D.fillOval((int) pos.x, (int) pos.y, 2 * RADIUS, 2 * RADIUS);
             graphics2D.setColor(Color.BLACK);
             graphics2D.drawOval((int) pos.x, (int) pos.y, 2 * RADIUS, 2 * RADIUS);
-        }else if(Main.simPaused){
+        }else if(Simulation.simPaused){
             graphics2D.fillOval((int) pos.x, (int) pos.y, 2 * RADIUS, 2 * RADIUS);
             graphics2D.setColor(Color.BLACK);
             graphics2D.drawOval((int) pos.x, (int) pos.y, 2 * RADIUS, 2 * RADIUS);

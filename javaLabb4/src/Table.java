@@ -35,9 +35,7 @@ public class Table {
                 holes[holeNr] = new Hole(new Coord(col*(TABLE_WIDTH/2.0)-HOLE_RADIUS,row*(TABLE_HEIGHT)-HOLE_RADIUS),(int)HOLE_RADIUS);
                 holeNr++;
             }
-
         }
-
     }
 
     void resetGame(){
@@ -53,7 +51,6 @@ public class Table {
 
     void addCueBall(){
         cueBall = new CueBall(new Coord(CUE_BALL_START_POS.x,CUE_BALL_START_POS.y),BALL_RADIUS,this);
-        //cue = new Cue(this);
     }
 
     private ArrayList<Ball> ballsPreShot = new ArrayList<>();
@@ -143,7 +140,7 @@ public class Table {
         ballFouled = false;
     }
 
-    void scoreBall(){
+    void checkBallsInHole(){
         for(Hole hole:holes){
             if(hole.isHit(cueBall)&&cueBall.isMoving()){
                 ballFouled = true;
@@ -151,10 +148,14 @@ public class Table {
                 break;
             }
         }
+    }
+    void scoreBall(){
+        checkBallsInHole();
+        boolean nextTurn = false;
         ArrayList<Ball> ballsToRemove = new ArrayList<>();
         for(Ball ball:balls){
             for(Hole hole:holes){
-                if(hole.isHit(ball)){ //it fucked upp bro
+                if(hole.isHit(ball)){
                     if(ball.getBallType()==-1){
                         nextTurn();
                         vinner(players[playerTurn]);
@@ -166,7 +167,7 @@ public class Table {
                             }
                             else{
                                 nextTurn();
-                                players[playerTurn].increaseScore(1);
+                                nextTurn = true;
                             }
                         }
                         else{
@@ -174,7 +175,7 @@ public class Table {
                             players[playerTurn].increaseScore(1);
                         }
                     }
-                    //balls.remove(ball);//Krashar iblan ingen aning om varför
+                    //balls.remove(ball);
                     ballsToRemove.add(ball);
                 }
             }
@@ -183,11 +184,14 @@ public class Table {
         if(colorSet) {
             checkForVinner();
         }
+        if(nextTurn){
+            nextTurn();
+        }
     }
 
     void setBalls(){
         colorSet = false;
-        int ballsAdded = 0, ballsPerRow = 5;
+        int ballsAdded = 1, ballsPerRow = 5;
         final int spaceBetweenBalls = 3,
                 backX               = TABLE_WIDTH-TABLE_HEIGHT/4,
                 topBackY            = TABLE_HEIGHT/2-5*(BALL_RADIUS)-2*spaceBetweenBalls;
@@ -205,7 +209,7 @@ public class Table {
                     ballType = 1;
                 }
 
-                if(ballsAdded==10){
+                if(ballsAdded==11){
                     ballColor = Color.BLACK;
                     ballType = -1;
                 }
@@ -307,6 +311,7 @@ public class Table {
     }
 
     boolean inGame(Coord pos){
+        //Göra om med boll istället
         return !(pos.x <= 0) && !((pos.x) >= TABLE_WIDTH) && !(pos.y <= 0) && !((pos.y) >= TABLE_HEIGHT);
     }
 

@@ -1,11 +1,8 @@
 import javax.swing.*;
 import javax.swing.border.Border;
-import javax.swing.border.CompoundBorder;
-import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.image.BufferedImage;
 
 /***
  * Att göra
@@ -22,7 +19,7 @@ import java.awt.image.BufferedImage;
 
 public class PoolGame extends JPanel implements ActionListener, MouseListener, MouseMotionListener {
 
-    public static final int WINDOW_WIDTH    = 900,
+    static final int WINDOW_WIDTH    = 900,
                         WINDOW_HEIGHT       = 800,
                         UPDATE_FREQUENCY    = 100,
                         SCORE_BORD_HEIGHT   = 200,
@@ -146,7 +143,7 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
     public void mousePressed(MouseEvent e) {
         if(poolTable.getCueBall() != null) {
             Coord mosePos = new Coord(e);
-            poolTable.getCueBall().startAiming(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+            poolTable.getCueBall().startShot(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
         }
     }
 
@@ -154,7 +151,7 @@ public class PoolGame extends JPanel implements ActionListener, MouseListener, M
     public void mouseReleased(MouseEvent e) {
         if(poolTable.getCueBall() != null) {
             Coord mosePos = new Coord(e);
-            poolTable.getCueBall().stopAiming(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
+            poolTable.getCueBall().shootShot(new Coord(mosePos.x-GAME_BORDER,mosePos.y-GAME_BORDER));
         }
 
     }

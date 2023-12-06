@@ -37,17 +37,8 @@ public class Coord {
         y -= c.y;
     }
 
-    void shorten(double factor){
-        x *= (1-factor);
-        y *= (1-factor);
-    }
-
     static double scal(Coord a, Coord b) {      // scalar product
         return a.x * b.x + a.y * b.y;
-    }
-
-    static double scalProj(Coord a, Coord b){
-        return scal(a,b.norm());
     }
 
     static Coord proj(Coord a, Coord b){

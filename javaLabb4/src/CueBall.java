@@ -7,7 +7,6 @@ public class CueBall extends Ball{
         super(pos,radius);
         this.color = Color.WHITE;
         this.table=table;
-
     }
     void shot(Coord force){
         vel = force;
@@ -31,11 +30,10 @@ public class CueBall extends Ball{
             this.pos = mouse;
             movingMode = false;
         }
-
-
     }
 
     boolean isOkPlacement(Coord placement){
+        //Ända så man tar in en boll istället så att in game blir bättre
         if(!table.inGame(placement)){
             return false;
         }
@@ -52,7 +50,7 @@ public class CueBall extends Ball{
         return true;
     }
 
-    void startAiming(Coord aimStart){
+    void startShot(Coord aimStart){
         if(table.noBlasMoving()&&!movingMode) {
             this.aimStart = aimStart;
             isAiming = true;
@@ -61,10 +59,10 @@ public class CueBall extends Ball{
 
     Coord calcVelocity(Coord aimFinished){
         Coord aimStartToFinish = Coord.sub(aimStart, aimFinished),
-                aimStartToBall = Coord.sub(aimStart, new Coord(this.pos.x + this.RADIUS, this.pos.y + this.RADIUS));
+                aimStartToBall = Coord.sub(aimStart, this.center());
 
-        shortingForce = Coord.proj(aimStartToFinish, aimStartToBall);
-        Coord velocity = Coord.mul(Math.sqrt(shortingForce.magnitude()/3.0),shortingForce.norm());
+        Coord shortingForce = Coord.proj(aimStartToFinish, aimStartToBall);
+        Coord velocity = Coord.mul(Math.sqrt(shortingForce.magnitude()/3.0),shortingForce.norm()); //Typ från parow
         final double MAX_VELOCITY = 10.0; //Fick fram av att test
         if(velocity.magnitude()>MAX_VELOCITY){
             velocity = Coord.mul(MAX_VELOCITY,shortingForce.norm());
@@ -72,19 +70,15 @@ public class CueBall extends Ball{
         return velocity;
     }
 
-    void stopAiming(Coord aimFinished){
+    void shootShot(Coord aimFinished){
         if(!movingMode){
             if(table.noBlasMoving()/**&&Coord.distance(aimFinished,cueBall.pos)<Coord.distance(aimStart,cueBall.pos)*/) {
                 isAiming = false;
-                this.aimFinished = aimFinished;
-                shortingForce = calcVelocity(aimFinished);
                 this.shot(calcVelocity(aimFinished));
                 table.startShot();
             }
         }
     }
-    Coord shortingForce;
-    Coord aimFinished = new Coord(0,0);
 
     void drawCue(Graphics2D graphics2D){
         if(movingMode){
@@ -108,8 +102,8 @@ public class CueBall extends Ball{
         double scaleToPower = calcVelocity(powerBar).magnitude();
         dirOfPower = Coord.mul(scaleToPower*10,dirOfPower);
         dirOfPower.increase(this.center());
-        graphics2D.setColor(Color.RED);
-        graphics2D.setStroke(new BasicStroke(10));
+        graphics2D.setColor(POWER_BAR_COLOR);
+        graphics2D.setStroke(new BasicStroke(6));
         graphics2D.drawLine((int)pos.x+RADIUS,(int)pos.y+RADIUS,(int)dirOfPower.x,(int)dirOfPower.y);
 
     }

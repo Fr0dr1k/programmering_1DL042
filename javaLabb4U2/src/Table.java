@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Table {
 
@@ -25,7 +26,8 @@ public class Table {
                 posNew = new Coord(Math.random()*TABLE_WIDTH/2,Math.random()*TABLE_HEIGHT);
             }
             final int initialMaxSpeed = 3;
-            Coord speedNew = new Coord(Math.random()*initialMaxSpeed,Math.random()*initialMaxSpeed);
+            Random random = new Random();
+            Coord speedNew = new Coord((random.nextDouble(2)-1)*initialMaxSpeed,(random.nextDouble(2)-1)*initialMaxSpeed);
             people.add(new Person(posNew,PEOPLE_RADIUS,Math.random()<riskOfSick,speedNew));
 
         }
@@ -67,7 +69,7 @@ public class Table {
             ball.draw(graphics2D);
         }
 
-        if(Main.simPaused){
+        if(Simulation.simPaused){
             final int fontSize = 13,
                     labelX = 820,
                     labelY = 170;

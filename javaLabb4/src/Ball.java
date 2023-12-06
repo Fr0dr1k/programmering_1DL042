@@ -67,18 +67,6 @@ public class Ball{
         }
     }
 
-    boolean collideWhitSomething(Table table){
-        if(pos.x<=0||pos.y<=0||(pos.x+2*RADIUS)>=table.getTABLE_WIDTH()||(pos.y+2*RADIUS)>=table.getTABLE_HEIGHT()){
-            return true;
-        }
-        for(Ball ball:table.getBalls()){
-            if(isColliding(ball)){
-                return true;
-            }
-        }
-        return false;
-    }
-
     Coord calculateCollision(Ball collidingBall){
         //Ändra variabelnamn så att parow inte får pykos
         Ball a = this;
