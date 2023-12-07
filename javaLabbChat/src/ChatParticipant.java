@@ -38,7 +38,7 @@ public class ChatParticipant implements ObjectStreamListener{
     @Override
     public void objectReceived(int number, Object object, Exception e) {
         if (e == null) {
-            displayWindow.textArea.append((String)object);
+            displayWindow.textArea.append(displayWindow.makeMessage((String)object,"friend: "));
         }
         else {
             System.out.println(e.getMessage());
@@ -99,9 +99,14 @@ class DisplayWindow extends JPanel {
         System.out.println(message);
         try{
             outputStream.writeObject(message);
+            textArea.append(makeMessage(message,"> "));
         }
         catch (IOException e){
             System.out.println("Error sending message");
         }
+    }
+
+    String makeMessage(String message, String nameOfSender){
+        return nameOfSender+message+"\n";
     }
 }
