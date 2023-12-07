@@ -23,6 +23,5 @@ public class Chat {
                 System.out.println("Failed creating server");
             }
         }
-
     }
 }

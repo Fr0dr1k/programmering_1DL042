@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -14,9 +16,9 @@ import javax.swing.*;
 
 public class ChatParticipant implements ObjectStreamListener{
     ChatParticipant(Socket socket) throws IOException {
-        //DisplayWindow displayWindow = new DisplayWindow();
-        ConsoleWriter myWriter = new ConsoleWriter(socket);
-        myWriter.start();
+        DisplayWindow displayWindow = new DisplayWindow();
+        //ConsoleWriter myWriter = new ConsoleWriter(socket);
+        //myWriter.start();
         InputStream myInputStream = socket.getInputStream();
 
         ObjectInputStream myObjectInputStream = new ObjectInputStream(myInputStream);
@@ -37,7 +39,11 @@ public class ChatParticipant implements ObjectStreamListener{
     }
 }
 
-class DisplayWindow extends JPanel implements ActionListener {
+class DisplayWindow extends JPanel implements KeyListener {
+
+    public static void main(String[] args) {
+        new DisplayWindow();
+    }
 
     DisplayWindow(){
         JFrame myFrame = new JFrame("Chat");
@@ -52,13 +58,16 @@ class DisplayWindow extends JPanel implements ActionListener {
     }
 
     void addTextArea(){
+        this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
         JTextArea textArea = new JTextArea();
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
-        textArea.setSize(500,500);
+        textArea.setEditable(false);
 
         JScrollPane scrollPane = new JScrollPane(textArea);
-        //scrollPane.setSize(450,450);
+        JTextField inputField = new JTextField();
+        inputField.setColumns(35);
+        this.add(inputField);
 
         this.add(scrollPane);
     }
@@ -70,7 +79,17 @@ class DisplayWindow extends JPanel implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
 
     }
 }
