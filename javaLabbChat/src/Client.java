@@ -1,6 +1,8 @@
+import javax.swing.*;
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -18,17 +20,21 @@ public class Client {
     ConcatHandler contacts;
     Client(int port) throws IOException {
         contacts = new ConcatHandler("src/testFile.txt");
-        Socket socket = new Socket(pickIp(),port);
+        Socket socket = new Socket("localhost",port);
         new ChatParticipant(socket);
     }
 
     String pickIp(){
-        //Gör saker i gFrame eller något
-        printContacts();
-        System.out.println("Pick a contact");
-        Scanner in = new Scanner(System.in);
-        int pickedContact = in.nextInt();
-        return contacts.getContactIp(pickedContact);
+        JFileChooser file = new JFileChooser("src");
+        file.showSaveDialog(null);
+        contacts.loadContacts(file.getSelectedFile());
+
+        JComboBox comboBox = new JComboBox(contacts.getAllNames());
+        //comboBox.setSelectedIndex(4);
+        //comboBox.addActionListener(this);
+
+
+        return "localhost";
     }
 
     void printContacts(){
@@ -42,34 +48,72 @@ public class Client {
 class ConcatHandler {
     private String filePath;
     final String ipSplitSymbolise = ":::";
-    ArrayList<String[]> bufferedContacts = new ArrayList<>();
+    ArrayList<Contact> bufferedContacts = new ArrayList<>();
 
     ConcatHandler(String filePath){
         this.filePath = filePath;
-        bufferedContacts = readContacts();
         System.out.println(bufferedContacts.toString());
     }
 
-    void addContact(String contactName, String ipAdress){
+    void addContact(String contactName, String ipAdress, int port){
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true))) {
-            bw.write(contactName + ipSplitSymbolise + ipAdress + "\n");
-            bufferedContacts.add(new String[]{contactName,ipAdress});
+            bw.write(contactName + ipSplitSymbolise + ipAdress + ipSplitSymbolise + port + "\n");
+            bufferedContacts.add(new Contact(contactName,ipAdress, port));
 
             //bw.write(new char[]{contactName,ipAdress},0,2);
         }
         catch (IOException e){
             System.out.println("Error writing to file");
         }
-        bufferedContacts.add(new String[]{contactName,ipAdress});
 
+    }
+
+    String[] getAllNames(){
+        String[] names = new String[bufferedContacts.size()];
+        for (int i=0;i<bufferedContacts.size();i++) {
+            names[i] = bufferedContacts.get(i).name;
+        }
+        return names;
+    }
+
+    String getContactName(int indexOfContact){
+        try{
+            return bufferedContacts.get(indexOfContact).name;
+        }
+        catch (IndexOutOfBoundsException e){
+            return null;
+        }
     }
 
     String getContactIp(int indexOfContact){
         try{
-            return bufferedContacts.get(indexOfContact)[1];
+            return bufferedContacts.get(indexOfContact).ip;
         }
         catch (IndexOutOfBoundsException e){
             return null;
+        }
+    }
+
+    int getContactPort(int indexOfContact){
+        try{
+            return bufferedContacts.get(indexOfContact).port;
+        }
+        catch (IndexOutOfBoundsException e){
+            return -1;
+        }
+    }
+
+    void loadContacts(File filePath){
+        bufferedContacts.clear();
+        try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
+            while (br.ready()){
+                ///System.out.println(br.readLine());
+                String line[] = br.readLine().split(ipSplitSymbolise);
+                bufferedContacts.add(new Contact(line[0],line[1],Integer.parseInt(line[2])));
+            }
+        }
+        catch (IOException e){
+            System.out.println("Error reading file");
         }
     }
 
@@ -89,4 +133,15 @@ class ConcatHandler {
         return contacts;
     }
 
+}
+
+class Contact{
+    String name, ip;
+    int port;
+
+    public Contact(String name, String ip, int port) {
+        this.name = name;
+        this.ip = ip;
+        this.port = port;
+    }
 }

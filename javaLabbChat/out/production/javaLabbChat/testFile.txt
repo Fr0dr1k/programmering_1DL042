@@ -1,1 +1,4 @@
-localhost:::localhost
+localhost:::localhost:::60000
+test1:::localhost:::60300
+test2:::localhost:::60200
+test3:::localhost:::60100

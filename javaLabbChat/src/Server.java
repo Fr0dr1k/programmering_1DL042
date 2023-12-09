@@ -17,7 +17,6 @@ public class Server {
     Server(int port) throws IOException {
         ServerSocket server = new ServerSocket(port);
         Socket socket = server.accept();
-        System.out.println("test");
         new ChatParticipant(socket);
         System.out.println("server closing");
         server.close();
